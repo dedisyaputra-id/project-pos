@@ -1,0 +1,166 @@
+CRITICAL - 2024-01-28 02:15:56 --> ErrorException: Trying to get property 'password' of non-object
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'password\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 02:17:25 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 02:19:58 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 02:21:41 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 02:37:25 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 03:30:57 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 03:32:19 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 03:36:20 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-01-28 03:37:14 --> ErrorException: Illegal string offset 'password'
+in APPPATH\Controllers\Auth.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'password\'', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-01-28 03:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 03:48:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 03:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 03:49:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 03:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 03:50:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-01-28 03:50:21 --> ErrorException: Undefined variable: message
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 APPPATH\Controllers\Auth.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-01-28 03:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 03:52:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-01-28 03:52:49 --> ErrorException: Undefined variable: message
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 APPPATH\Controllers\Auth.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-01-28 03:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 03:54:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-01-28 03:54:17 --> ErrorException: Undefined variable: message
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 APPPATH\Controllers\Auth.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-01-28 03:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 03:54:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-01-28 03:54:47 --> ErrorException: Undefined variable: message
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 APPPATH\Controllers\Auth.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Auth.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-01-28 03:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:12:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:13:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:15:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:15:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:16:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:16:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:20:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-28 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-28 04:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-28 04:26:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-01-28 04:26:50 --> ErrorException: Undefined variable: session
+in APPPATH\Views\layouts\header.php on line 173.
+ 1 APPPATH\Views\layouts\header.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\header.php', 173, [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layouts/header', null, true)
+ 5 APPPATH\Views\layouts\maintemplate.php(34): CodeIgniter\View\View->include('layouts/header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\maintemplate.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/maintemplate', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+10 APPPATH\Controllers\Home.php(9): view('welcome_message')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-01-28 04:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
