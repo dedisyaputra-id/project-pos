@@ -12,12 +12,12 @@
                 </li>
                 <li class="">
                     <div class="submenu-open">
-                        <h6 class="submenu-hdr">Produk</h6>
+                        <h6 class="submenu-hdr">Barang</h6>
                     </div>
                     <a href="/barang" class="<?= ($title == "Barang") ? "active" : ""  ?>"> <img src="<?php echo base_url("/assets/img/icons/product.svg") ?>" alt="img" />
-                        <span>Daftar Produk</span>
+                        <span>Daftar Barang</span>
                     </a>
-                    <a href="/barang/tambah"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Produk</span></a>
+                    <a href="/barang/tambah"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Barang</span></a>
                     <a href="/barang/kategori" class="<?= ($title == "Daftar kategori") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/codepen.svg") ?>" alt="img" /><span>Daftar Kategori</span></a>
                     <a href="addcategory.html"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Kategori</span></a>
                     <a href="subcategorylist.html"><img src="<?php echo base_url("/assets/img/icons/speaker (1).svg") ?>" alt="img" /><span>Daftar Sub Kategori </span></a>

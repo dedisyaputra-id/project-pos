@@ -3,13 +3,18 @@
 
 <div class="page-header">
     <div class="page-title">
-        <h4>Daftar Produk</h4>
-        <h6>Atur Produk Anda</h6>
+        <h4>Daftar Barang</h4>
+        <h6>Atur data barang anda</h6>
     </div>
     <div class="page-btn">
-        <a href="/barang/tambah" class="btn btn-added"><img src="<?php base_url() ?>/assets/img/icons/plus.svg" alt="img" class="me-1">Tambah Produk Baru</a>
+        <a href="/barang/tambah" class="btn btn-added"><img src="<?php base_url() ?>/assets/img/icons/plus.svg" alt="img" class="me-1">Tambah Barang Baru</a>
     </div>
 </div>
+<?php if (session()->getFlashdata("success")) : ?>
+    <div class="alert alert-success" role="alert">
+        <?= session()->getFlashdata("success") ?>
+    </div>
+<?php endif; ?>
 <div class="card">
     <div class="card-body">
         <div class="table-top">
@@ -38,65 +43,6 @@
                 </ul>
             </div>
         </div>
-
-        <div class="card mb-0" id="filter_inputs">
-            <div class="card-body pb-0">
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                        <div class="row">
-                            <div class="col-lg col-sm-6 col-12">
-                                <div class="form-group">
-                                    <select class="select">
-                                        <option>Choose Product</option>
-                                        <option>Macbook pro</option>
-                                        <option>Orange</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg col-sm-6 col-12">
-                                <div class="form-group">
-                                    <select class="select">
-                                        <option>Choose Category</option>
-                                        <option>Computers</option>
-                                        <option>Fruits</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg col-sm-6 col-12">
-                                <div class="form-group">
-                                    <select class="select">
-                                        <option>Choose Sub Category</option>
-                                        <option>Computer</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg col-sm-6 col-12">
-                                <div class="form-group">
-                                    <select class="select">
-                                        <option>Brand</option>
-                                        <option>N/D</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg col-sm-6 col-12 ">
-                                <div class="form-group">
-                                    <select class="select">
-                                        <option>Price</option>
-                                        <option>150.00</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-1 col-sm-6 col-12">
-                                <div class="form-group">
-                                    <a class="btn btn-filters ms-auto"><img src="<?php base_url() ?>/assets/img/icons/search-whites.svg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="table-responsive">
             <table class="table  datanew">
                 <thead>
@@ -107,14 +53,14 @@
                                 <span class="checkmarks"></span>
                             </label>
                         </th>
-                        <th>Product Name</th>
-                        <th>SKU</th>
-                        <th>Category </th>
+                        <th>Nama Barang</th>
+                        <th>Kode Barang</th>
+                        <th>Kategori</th>
                         <th>Brand</th>
-                        <th>price</th>
+                        <th>Harga</th>
                         <th>Unit</th>
-                        <th>Qty</th>
-                        <th>Created By</th>
+                        <th>Stok Awal</th>
+                        <th>Ditambah Oleh</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -129,27 +75,32 @@
                             </td>
                             <td class="productimgname">
                                 <a href="javascript:void(0);" class="product-img">
-                                    <img src="<?php base_url() ?>/assets/img/product/product1.jpg" alt="product">
+                                    <img src="<?php base_url() ?>/assets/gambar-produk/<?= $brg->file_gambar ?>" alt="product">
                                 </a>
-                                <a href="javascript:void(0);"><?= $brg["barangname"] ?></a>
+                                <a href="javascript:void(0);"><?= $brg->barangname ?></a>
                             </td>
-                            <td>PT001</td>
+                            <td><?= $brg->barangcode ?></td>
                             <td>Computers</td>
                             <td>N/D</td>
-                            <td><?= $brg["hargajual"]; ?></td>
+                            <td><?= $brg->hargajual; ?></td>
                             <td>pc</td>
-                            <td><?= $brg["stokawal"]; ?></td>
-                            <td><?= $brg["opadd"]; ?></td>
+                            <td><?= $brg->stokawal; ?></td>
+                            <td><?= $brg->opadd; ?></td>
+
                             <td>
-                                <a class="me-3" href="product-details.html">
+                                <a class="me-3" href="/barang/<?= $brg->barangcode; ?>">
                                     <img src="<?php base_url() ?>/assets/img/icons/eye.svg" alt="img">
                                 </a>
-                                <a class="me-3" href="editproduct.html">
+                                <a class="me-3" href="/barang/edit/<?= $brg->barangid ?>">
                                     <img src="<?php base_url() ?>/assets/img/icons/edit.svg" alt="img">
                                 </a>
-                                <a class="confirm-text" href="javascript:void(0);">
-                                    <img src="<?php base_url() ?>/assets/img/icons/delete.svg" alt="img">
-                                </a>
+                                <form action="/barang/hapus/<?= $brg->barangid ?>" method="post" class="d-inline">
+                                    <?php csrf_field() ?>
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button class="border-0" type="submit" onclick="return confirm('apakah anda yakin?')" style="background: none;">
+                                        <img src="<?php base_url() ?>/assets/img/icons/delete.svg" alt="img">
+                                    </button>
+                                </form>
                             </td>
                         </tr>
                     <?php endforeach ?>
@@ -158,4 +109,53 @@
         </div>
     </div>
 </div>
+<?= $this->section("ajax"); ?>
+<script>
+    // $(".btn-delete").click(function() {
+    //     Swal.fire({
+    //         title: "Apakah anda yakin?",
+    //         icon: "warning",
+    //         showCancelButton: true,
+    //         confirmButtonColor: "#3085d6",
+    //         cancelButtonColor: "#d33",
+    //         confirmButtonText: "Iya, Hapus",
+    //         cancelButtonText: "Batal",
+    //     }).then((result) => {
+    //         if (result.isConfirmed) {
+    //             let id = 29
+    //             $.ajax({
+    //                 url: "/barang/hapus/" + id,
+    //                 method: "delete",
+    //                 dataType: "JSON",
+    //                 beforeSend: function() {
+    //                     Swal.fire({
+    //                         title: 'Please Wait !',
+    //                         html: 'data uploading',
+    //                         allowOutsideClick: false,
+    //                         showConfirmButton: false,
+    //                         onBeforeOpen: () => {
+    //                             Swal.showLoading()
+    //                         },
+    //                     });
+    //                 },
+    //                 success: function(response) {
+    //                     console.log(response)
+    //                     if (response.success) {
+    //                         Swal.fire({
+    //                             title: "Deleted!",
+    //                             text: "Your file has been deleted.",
+    //                             icon: "success"
+    //                         });
+    //                         window.location = "/barang"
+    //                     }
+    //                 },
+    //                 error: function(err) {
+    //                     console.log(err)
+    //                 }
+    //             })
+    //         }
+    //     });
+    // });
+</script>
+<?= $this->endSection(); ?>
 <?= $this->endSection(); ?>

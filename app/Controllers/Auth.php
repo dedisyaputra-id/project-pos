@@ -8,8 +8,10 @@ class Auth extends BaseController
 {
     protected $userModel;
     protected $session;
+    protected $response;
     public function __construct()
     {
+        $this->response = \Config\Services::response();
         $this->session = \Config\Services::session();
         $this->session->start();
         $this->userModel = new UserModel();
@@ -27,7 +29,6 @@ class Auth extends BaseController
             $password = $this->request->getVar("password");
 
             $validation = \Config\Services::validation();
-
             $validate = $this->validate([
                 "username" => [
                     "rules" => "required",
@@ -81,6 +82,7 @@ class Auth extends BaseController
                     }
                 }
             }
+
             echo json_encode($message);
         }
     }

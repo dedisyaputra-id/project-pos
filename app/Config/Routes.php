@@ -11,4 +11,7 @@ $routes->post('/login/save', 'Auth::login');
 $routes->get('/barang', 'Barang::index');
 $routes->get('/barang/tambah', 'Barang::create');
 $routes->post('/barang/simpan', 'Barang::save');
+$routes->delete('/barang/hapus/(:segment)', 'Barang::delete/$1');
+$routes->get('/barang/(:segment)', 'Barang::detail/$1');
 $routes->get('/barang/kategori', 'Barang::category');
+$routes->get('/barang/edit/(:segment)', 'Barang::edit/$1');

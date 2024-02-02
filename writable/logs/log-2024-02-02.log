@@ -1,0 +1,366 @@
+INFO - 2024-02-02 03:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:10:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:10:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:11:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:11:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:12:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:15:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:15:05 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\barang\index.php on line 78.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/index', [], true)
+ 4 APPPATH\Controllers\Barang.php(28): view('barang/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:16:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:16:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:16:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:16:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:17:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:17:25 --> ErrorException: Undefined index: barangname
+in APPPATH\Views\barang\tambahbarang.php on line 27.
+ 1 APPPATH\Views\barang\tambahbarang.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: barangname', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:18:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:18:19 --> ErrorException: Undefined index: barangname
+in APPPATH\Views\barang\tambahbarang.php on line 27.
+ 1 APPPATH\Views\barang\tambahbarang.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: barangname', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:18:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:18:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:18:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:19:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:19:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:19:24 --> ErrorException: Undefined index: barangname
+in APPPATH\Views\barang\tambahbarang.php on line 27.
+ 1 APPPATH\Views\barang\tambahbarang.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: barangname', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:21:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:21:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:21:41 --> ErrorException: Undefined index: barangname
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: barangname', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:25:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:25:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:25:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:26:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:26:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:26:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:26:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:26:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:26:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:27:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:27:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:27:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:29:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:29:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:29:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:29:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:29:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:29:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:33:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:33:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:33:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:33:28 --> ErrorException: Undefined index: barangname
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: barangname', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:34:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:34:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:35:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:35:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:36:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:36:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:38:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:39:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:40:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:41:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:41:43 --> ErrorException: Undefined property: stdClass::$idbarang
+in APPPATH\Views\barang\index.php on line 69.
+ 1 APPPATH\Views\barang\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$idbarang', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\index.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\Barang.php(29): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:41:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:42:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:44:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:45:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:45:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:46:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:47:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:47:12 --> ErrorException: Trying to get property 'barangid' of non-object
+in APPPATH\Views\barang\index.php on line 69.
+ 1 APPPATH\Views\barang\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'barangid\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\index.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\Barang.php(29): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:47:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-02 03:47:31 --> ErrorException: Trying to get property 'barangid' of non-object
+in APPPATH\Views\barang\index.php on line 69.
+ 1 APPPATH\Views\barang\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'barangid\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\index.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\Barang.php(29): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:47:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:48:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:48:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-02 03:48:21 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: DELETE FROM tbm_barang WHERE barangid=31
+                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'DELETE FROM tbm...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('DELETE FROM tbm...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM tbm...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(140): CodeIgniter\Database\BaseConnection->query('DELETE FROM tbm...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->delete('31')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-02 03:48:21 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: DELETE FROM tbm_barang WHERE barangid=31
+                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(140): CodeIgniter\Database\BaseConnection->query('DELETE FROM tbm_barang WHERE barangid=31')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->delete('31')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-02 03:48:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: DELETE FROM tbm_barang WHERE barangid=31
+                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('DELETE FROM tbm_barang WHERE barangid=31')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM tbm_barang WHERE barangid=31')
+ 3 APPPATH\Controllers\Barang.php(140): CodeIgniter\Database\BaseConnection->query('DELETE FROM tbm_barang WHERE barangid=31')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->delete('31')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-02 03:48:21 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: DELETE FROM tbm_barang WHERE barangid=31
+                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: DELETE FROM tbm_barang WHERE barangid=31
+                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'DELETE FROM tbm_barang WHERE barangid=31')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('DELETE FROM tbm_barang WHERE barangid=31')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM tbm_barang WHERE barangid=31')
+ 5 APPPATH\Controllers\Barang.php(140): CodeIgniter\Database\BaseConnection->query('DELETE FROM tbm_barang WHERE barangid=31')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->delete('31')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-02 03:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:48:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:48:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-02 03:50:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-02 03:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 07:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-02 08:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-02 08:49:56 --> ErrorException: Trying to get property 'barangname' of non-object
+in APPPATH\Views\barang\editbarang.php on line 26.
+ 1 APPPATH\Views\barang\editbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'barangname\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(143): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('32')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-02 08:51:37 --> ErrorException: Trying to get property 'barangname' of non-object
+in APPPATH\Views\barang\editbarang.php on line 26.
+ 1 APPPATH\Views\barang\editbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'barangname\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(143): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('32')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-02 08:51:42 --> ErrorException: Trying to get property 'barangname' of non-object
+in APPPATH\Views\barang\editbarang.php on line 26.
+ 1 APPPATH\Views\barang\editbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'barangname\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(143): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('32')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')

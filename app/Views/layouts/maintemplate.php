@@ -27,9 +27,9 @@
 </head>
 
 <body>
-    <div id="global-loader">
+    <!-- <div id="global-loader">
         <div class="whirly-loader"></div>
-    </div>
+    </div> -->
     <div class="main-wrapper">
         <?= $this->include("layouts/header"); ?>
         <?= $this->include("layouts/sidebar"); ?>
@@ -56,6 +56,8 @@
     <script src="<?php echo base_url("/assets/plugins/apexchart/chart-data.js")  ?>"></script>
 
     <script src="<?php echo base_url("/assets/js/script.js")  ?>"></script>
+    <script src="<?php base_url() ?>/assets/plugins/sweetalert/sweetalert2.all.min.js"></script>
+    <script src="<?php base_url() ?>/assets/plugins/sweetalert/sweetalerts.min.js"></script>
     <?php $this->renderSection("ajax") ?>
 </body>
 

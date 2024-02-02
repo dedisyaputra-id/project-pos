@@ -6,20 +6,31 @@
         <h6>Buat Produk Baru</h6>
     </div>
 </div>
-
 <div class="card">
     <div class="card-body">
-        <!-- <form action="/barang/simpan" method="post" enctype="multipart/form-data">
+        <form action="/barang/simpan" method="post" enctype="multipart/form-data">
             <?php csrf_field() ?>
             <div class="row">
-                <div class="col-lg-3 col-sm-6 col-12">
+                <div class="col-lg-12">
                     <div class="form-group">
-                        <label>Nama Produk</label>
-                        <input type="text" name="barangname">
+                        <label> Gambar Produk</label>
+                        <input type="file" name="file_gambar" class="form-control <?= (isset($validation) ? ($validation->getError("file_gambar") ? "is-invalid" : " ") : " "); ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("file_gambar") : ""; ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
+                        <label>Nama Produk</label>
+                        <input type="text" name="barangname" autofocus class="form-control <?= (isset($validation) ? ($validation->getError("barangname") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("barangname") ? "" : $_POST["barangname"]) : "");  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("barangname") : ""; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="mb-3">
                         <label>Kategori</label>
                         <select class="form-select">
                             <option>Pilih Category</option>
@@ -28,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Merek</label>
                         <select class="form-select">
                             <option>Pilih Merek</option>
@@ -37,7 +48,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Unit</label>
                         <select class="form-select">
                             <option>Pilih Unit</option>
@@ -46,181 +57,78 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Stok Awal</label>
-                        <input type="text" name="stokawal">
+                        <input type="text" name="stokawal" class="form-control <?= (isset($validation) ? ($validation->getError("stokawal") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("stokawal") ? "" : $_POST["stokawal"]) : "");  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("stokawal") : ""; ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Kode Barang</label>
-                        <input type="text" name="barangcode">
+                        <input type="text" name="barangcode" class=" form-control <?= (isset($validation) ? ($validation->getError("barangcode") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("barangcode") ? "" : $_POST["barangcode"]) : "");  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("barangcode") : ""; ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Deskripsi</label>
-                        <textarea class="form-control" name="remarks"></textarea>
+                        <textarea class="form-control" name="remarks" rows="4"></textarea>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Harga Beli</label>
-                        <input type="text" name="hargabeli">
+                        <input type="text" name="hargabeli" class="form-control  <?= (isset($validation) ? ($validation->getError("hargabeli") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("hargabeli") ? "" : $_POST["hargabeli"]) : "");  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("hargabeli") : ""; ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Harga App</label>
-                        <input type="text" name="hargapp">
+                        <input type="text" name="hargapp" class="form-control <?= (isset($validation) ? ($validation->getError("hargapp") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("hargapp") ? "" : $_POST["hargapp"]) : "");  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("hargapp") : ""; ?>
+
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Harga Jual</label>
-                        <input type="text" name="hargajual">
+                        <input type="text" name="hargajual" class="form-control <?= (isset($validation) ? ($validation->getError("hargajual") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("hargajual") ? "" : $_POST["hargajual"]) : "");  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("hargajual") : ""; ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-3">
                         <label>Satuan</label>
-                        <select class="form-select" name="satuan">
-                            <option>Pilih Satuan</option>
+                        <select class="form-select <?= (isset($validation) ? ($validation->getError("satuan") ? "is-invalid" : "") : ""); ?>" name="satuan">
+                            <option value="" selected>Pilih Satuan</option>
                             <option value="Gram">Gram</option>
                             <option value="KG">KG</option>
                             <option value="Ons">Ons</option>
                         </select>
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= isset($validation) ? $validation->getError("satuan") : ""; ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
+                    <div class="mb-4">
                         <label> Status</label>
                         <select class="form-select">
                             <option>Closed</option>
                             <option>Open</option>
                         </select>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="form-group">
-                        <label> Gambar Produk</label>
-                        <div class="image-upload">
-                            <input type="file">
-                            <div class="image-uploads">
-                                <img src="<?php base_url() ?>/assets/img/icons/upload.svg" alt="img">
-                                <h4>Drag and drop a file to upload</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <button class="btn btn-submit me-2" type="submit">Submit</button>
-                    <a href="/barang" class="btn btn-cancel">Cancel</a>
-                </div>
-            </div>
-        </form> -->
-        <form class="form-tambah-barang">
-            <?php csrf_field() ?>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Nama Produk</label>
-                        <input type="text" name="barangname">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Kategori</label>
-                        <select class="form-select">
-                            <option>Pilih Category</option>
-                            <option>Computers</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Merek</label>
-                        <select class="form-select">
-                            <option>Pilih Merek</option>
-                            <option>Brand</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Unit</label>
-                        <select class="form-select">
-                            <option>Pilih Unit</option>
-                            <option>Unit</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Stok Awal</label>
-                        <input type="text" name="stokawal">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Kode Barang</label>
-                        <input type="text" name="barangcode">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="form-group">
-                        <label>Deskripsi</label>
-                        <textarea class="form-control" name="remarks"></textarea>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Harga Beli</label>
-                        <input type="text" name="hargabeli">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Harga App</label>
-                        <input type="text" name="hargapp">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Harga Jual</label>
-                        <input type="text" name="hargajual">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label>Satuan</label>
-                        <select class="form-select" name="satuan">
-                            <option>Pilih Satuan</option>
-                            <option value="Gram">Gram</option>
-                            <option value="KG">KG</option>
-                            <option value="Ons">Ons</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="form-group">
-                        <label> Status</label>
-                        <select class="form-select">
-                            <option>Closed</option>
-                            <option>Open</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="form-group">
-                        <label> Gambar Produk</label>
-                        <div class="image-upload">
-                            <input type="file">
-                            <div class="image-uploads">
-                                <img src="<?php base_url() ?>/assets/img/icons/upload.svg" alt="img">
-                                <h4>Drag and drop a file to upload</h4>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -229,17 +137,6 @@
                 </div>
             </div>
         </form>
-        <button class="btn-click btn mt-5" type="click">Click me</button>
     </div>
 </div>
-<?= $this->section("ajax") ?>
-<script>
-    $(document).ready(function() {
-        $(".btn-click").click(function(event) {
-            event.preventDefault()
-            console.log($(".btn-click").text());
-        });
-    })
-</script>
-<?= $this->endSection("ajax") ?>
 <?= $this->endSection(); ?>

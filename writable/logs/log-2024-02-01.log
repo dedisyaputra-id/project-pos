@@ -1,0 +1,1701 @@
+INFO - 2024-02-01 01:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:05:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:05:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:05:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:05:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:06:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:06:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:09:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:09:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:09:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:09:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:10:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:10:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:10:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:10:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:10:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 01:10:33 --> ErrorException: Undefined variable: title
+in APPPATH\Views\layouts\maintemplate.php on line 11.
+ 1 APPPATH\Views\layouts\maintemplate.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\maintemplate.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\maintemplate.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/maintemplate', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/tambahbarang', [], true)
+ 6 APPPATH\Controllers\Barang.php(106): view('/barang/tambahbarang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 01:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:10:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:10:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:10:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:11:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:11:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:11:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:12:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:12:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:12:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:12:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:12:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:12:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:13:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:13:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:13:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:13:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:13:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:13:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 01:13:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\barang\tambahbarang.php on line 9.
+ 1 APPPATH\Views\barang\tambahbarang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(39): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 01:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:14:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:14:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:16:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:16:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:16:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:16:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 01:16:25 --> ErrorException: session_status() expects exactly 0 parameters, 1 given
+in APPPATH\Controllers\Barang.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_status() expects exactly 0 parameters, 1 given', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Barang.php', 33, [])
+ 2 APPPATH\Controllers\Barang.php(33): session_status('validation')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 01:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:18:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:18:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 01:19:25 --> ErrorException: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Barang.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-01 01:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:19:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:19:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:24:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:24:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:24:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:24:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:24:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:24:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:24:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:24:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:24:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 01:24:31 --> ErrorException: Undefined variable: validate
+in APPPATH\Controllers\Barang.php on line 38.
+ 1 APPPATH\Controllers\Barang.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validate', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Barang.php', 38, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 01:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:24:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:24:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:25:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:25:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:25:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:25:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:25:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:26:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:26:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:26:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:26:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:27:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:27:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:27:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:27:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:27:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:28:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:28:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:28:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:28:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:28:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:29:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:29:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:29:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:30:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:30:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:30:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:30:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:34:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:35:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:47:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:52:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:52:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:52:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:52:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:53:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:53:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:53:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:53:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:53:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:53:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:53:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:54:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:54:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:54:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:54:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:54:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:54:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 01:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 01:54:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 01:54:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:04:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:04:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:04:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 02:04:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:05:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 02:05:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:05:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:05:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-02-01 02:05:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:08:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 02:08:26 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 11.
+ 1 APPPATH\Views\barang\tambahbarang.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 02:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:08:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:08:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 02:08:55 --> ErrorException: Undefined variable: title
+in APPPATH\Views\layouts\maintemplate.php on line 11.
+ 1 APPPATH\Views\layouts\maintemplate.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\maintemplate.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\layouts\\maintemplate.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/maintemplate', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 6 APPPATH\Controllers\Barang.php(101): view('barang/tambahbarang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->save()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 02:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:09:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:09:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:10:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:10:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:14:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:14:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:14:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:14:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:14:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:15:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:15:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:16:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:18:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:18:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:18:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:18:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:19:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:21:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 02:21:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 02:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 02:26:06 --> Error: Cannot access protected property CodeIgniter\Validation\Validation::$errors
+in APPPATH\Views\barang\tambahbarang.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(103): view('barang/tambahbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 02:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 02:36:05 --> ErrorException: Undefined property: CodeIgniter\Validation\Validation::$stokawal
+in APPPATH\Views\barang\tambahbarang.php on line 4.
+ 1 APPPATH\Views\barang\tambahbarang.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Validation\\Validation::$stokawal', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(103): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 02:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 02:44:52 --> Error: Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\barang\tambahbarang.php on line 5.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(103): view('barang/tambahbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 02:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 02:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-01 02:59:13 --> Error: Cannot access protected property CodeIgniter\Validation\Validation::$data
+in APPPATH\Views\barang\tambahbarang.php on line 5.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 4 APPPATH\Controllers\Barang.php(103): view('barang/tambahbarang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:13:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:13:43 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:15:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:15:41 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:15:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:15:52 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 54.
+ 1 APPPATH\Views\barang\tambahbarang.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:16:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:16:02 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:18:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:18:29 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:18:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:18:34 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:18:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:18:35 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:18:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:18:36 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:18:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:18:36 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:20:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:20:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:20:39 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 4.
+ 1 APPPATH\Views\barang\tambahbarang.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:21:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:22:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:22:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:22:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:22:40 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 26.
+ 1 APPPATH\Views\barang\tambahbarang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:23:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:23:05 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 62.
+ 1 APPPATH\Views\barang\tambahbarang.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:29:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 03:29:37 --> ErrorException: Undefined variable: validation
+in APPPATH\Views\barang\tambahbarang.php on line 63.
+ 1 APPPATH\Views\barang\tambahbarang.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php', 63, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\tambahbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/tambahbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(36): view('barang/tambahbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 03:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:31:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:39:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:41:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:43:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-01 03:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:45:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:45:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:45:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:47:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:47:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:47:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:48:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:48:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:48:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:49:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:50:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:50:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:50:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:50:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:50:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:59:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:59:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 03:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 03:59:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:00:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:00:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:00:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:00:59 --> ArgumentCountError: Too few arguments to function App\Controllers\Barang::detail(), 0 passed in C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Barang.php on line 123.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:01:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:01:46 --> TypeError: Argument 2 passed to CodeIgniter\Database\BaseBuilder::when() must be callable, int given, called in C:\xampp\htdocs\POS_CODEIGNITER\system\Model.php on line 872
+in SYSTEMPATH\Traits\ConditionalTrait.php on line 28.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->when('barangcode', 1)
+ 2 APPPATH\Models\BarangModel.php(18): CodeIgniter\Model->__call('when', [...])
+ 3 APPPATH\Controllers\Barang.php(125): App\Models\BarangModel->getProduk(1)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail(1)
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:02:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:02:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:02:10 --> TypeError: Argument 2 passed to CodeIgniter\Database\BaseBuilder::when() must be callable, int given, called in C:\xampp\htdocs\POS_CODEIGNITER\system\Model.php on line 872
+in SYSTEMPATH\Traits\ConditionalTrait.php on line 28.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->when('barangcode', 1)
+ 2 APPPATH\Models\BarangModel.php(18): CodeIgniter\Model->__call('when', [...])
+ 3 APPPATH\Controllers\Barang.php(125): App\Models\BarangModel->getProduk(1)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail(1)
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:02:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:02:42 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 3: WHERE &quot;barangcode&quot; = 1
+                           ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #155, 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\POS_CODEIGNITER\app\Models\BarangModel.php(18): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(125): App\Models\BarangModel->getProduk(1)
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail(1)
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#11 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-02-01 04:02:42 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 3: WHERE &quot;barangcode&quot; = 1
+                           ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = :barangcode:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\BarangModel.php(18): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Barang.php(125): App\Models\BarangModel->getProduk(1)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail(1)
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:02:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 3: WHERE &quot;barangcode&quot; = 1
+                           ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = 1
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = :barangcode:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\BarangModel.php(18): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Barang.php(125): App\Models\BarangModel->getProduk(1)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail(1)
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:02:42 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 3: WHERE &quot;barangcode&quot; = 1
+                           ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 3: WHERE &quot;barangcode&quot; = 1
+                           ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = 1
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "tbm_barang"
+WHERE "barangcode" = :barangcode:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\BarangModel.php(18): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\Barang.php(125): App\Models\BarangModel->getProduk(1)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail(1)
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:03:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:04:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:04:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:06:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:07:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:07:33 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'SELECT * FROM t...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM t...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 04:07:33 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:07:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 3 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:07:33 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 5 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:11:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:11:12 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #153, 'SELECT * FROM t...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM t...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 04:11:12 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:11:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 3 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:11:12 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 5 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:11:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:11:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:11:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:11:56 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'SELECT * FROM t...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM t...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 04:11:56 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:11:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 3 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:11:56 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 5 APPPATH\Controllers\Barang.php(126): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:14:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:14:01 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'SELECT * FROM t...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM t...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 04:14:01 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:14:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 3 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:14:01 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 5 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:14:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:14:11 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'SELECT * FROM t...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM t...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 04:14:11 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:14:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 3 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:14:11 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 12213
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 5 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 12213')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('12213')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:14:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:14:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 04:14:31 --> ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'SELECT * FROM t...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM t...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 04:14:31 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:14:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 3 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-01 04:14:31 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  operator does not exist: character varying = integer
+LINE 1: SELECT * FROM tbm_barang WHERE barangcode = 001
+                                                  ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 5 APPPATH\Controllers\Barang.php(127): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = 001')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('001')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:15:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:15:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:16:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:16:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:17:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:18:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:18:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:20:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:20:51 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\barang\barangdetail.php on line 24.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 4 APPPATH\Controllers\Barang.php(134): view('barang/barangdetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('002')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:21:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:21:20 --> ErrorException: Undefined property: stdClass::$hargap
+in APPPATH\Views\barang\barangdetail.php on line 60.
+ 1 APPPATH\Views\barang\barangdetail.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$hargap', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\barangdetail.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\barangdetail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 5 APPPATH\Controllers\Barang.php(134): view('barang/barangdetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('002')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:21:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:22:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:22:14 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\barang\barangdetail.php on line 82.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 4 APPPATH\Controllers\Barang.php(134): view('barang/barangdetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('002')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:22:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-01 04:22:30 --> ErrorException: Undefined property: stdClass::$hargaapp
+in APPPATH\Views\barang\barangdetail.php on line 83.
+ 1 APPPATH\Views\barang\barangdetail.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$hargaapp', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\barangdetail.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\barangdetail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 5 APPPATH\Controllers\Barang.php(134): view('barang/barangdetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('002')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 04:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:22:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:22:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:22:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:25:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:25:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:27:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:28:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:29:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:29:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:34:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:34:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:34:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:34:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:34:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:40:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:40:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:40:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:41:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:42:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:43:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:44:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:50:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:53:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:54:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 04:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 04:55:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:47:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:48:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:49:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:50:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:52:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:54:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 06:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 06:54:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:10:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:14:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:14:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:16:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:18:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:18:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:19:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:22:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:22:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:23:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:26:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:27:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:36:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:36:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:36:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:36:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:36:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:36:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:37:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:37:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:38:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:38:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:38:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:39:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:39:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:40:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:40:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:42:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:42:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:42:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:43:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:44:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:44:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:45:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:45:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:45:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:46:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:46:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:46:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:47:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:47:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:47:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:48:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:48:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:48:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:52:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:52:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:53:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:53:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:53:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:54:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:54:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:54:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:54:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:55:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:55:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:55:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:55:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:56:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:57:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:58:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:59:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:59:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:59:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 07:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 07:59:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:03:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:03:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:03:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:08:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:08:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:08:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:12:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:13:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:13:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:17:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:17:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:17:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:17:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:17:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:17:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:18:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:18:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:18:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:18:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:18:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:18:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:19:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:19:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:19:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:19:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:19:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:21:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:21:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:21:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:22:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:22:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:22:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:48:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:52:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:52:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:52:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:52:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:52:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:53:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:53:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:53:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:54:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:54:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:55:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:55:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:56:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 08:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 08:56:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:31:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:32:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:32:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:32:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:32:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:32:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:34:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:34:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:37:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:37:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:38:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:38:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:43:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:43:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 22:43:12 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('tambahbarang')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 22:43:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Barang.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = \'tambahbarang\'')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('tambahbarang')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 22:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:43:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 22:43:37 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('tambahbarang')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 22:43:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Barang.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = \'tambahbarang\'')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('tambahbarang')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 22:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:44:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 22:44:01 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->detail('tambahbarang')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-01 22:44:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Barang.php(129): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbm_barang WHERE barangcode = \'tambahbarang\'')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('tambahbarang')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 22:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:44:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-01 22:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:44:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 22:44:12 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(23): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->index()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-02-01 22:44:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Network is unreachable (0x00002743/10051)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "tbm_barang"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-01 22:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-01 22:46:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-01 22:46:26 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(23): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->index()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-02-01 22:46:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "tbm_barang"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Barang.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
