@@ -2,8 +2,8 @@
 <?= $this->section("content"); ?>
 <div class="page-header">
     <div class="page-title">
-        <h4>Product Details</h4>
-        <h6>Full details of a product</h6>
+        <h4>Detail Barang</h4>
+        <h6>Detail Barang Secara Penuh</h6>
     </div>
 </div>
 
@@ -20,29 +20,25 @@
                 <div class="productdetails">
                     <ul class="product-bar">
                         <li>
-                            <h4>Produk</h4>
+                            <h4>Kode Barang</h4>
+                            <h6><?= $product->barangcode; ?></h6>
+                        </li>
+                        <li>
+                            <h4>Nama Barang</h4>
                             <h6><?= $product->barangname; ?></h6>
                         </li>
                         <li>
-                            <h4>Category</h4>
+                            <h4>Kategori</h4>
                             <h6>Computers</h6>
                         </li>
-                        <li>
-                            <h4>Sub Category</h4>
-                            <h6>None</h6>
-                        </li>
-                        <li>
+                        <!-- <li>
                             <h4>Brand</h4>
                             <h6>None</h6>
                         </li>
                         <li>
                             <h4>Unit</h4>
                             <h6>Piece</h6>
-                        </li>
-                        <li>
-                            <h4>Kode Barang</h4>
-                            <h6><?= $product->barangcode; ?></h6>
-                        </li>
+                        </li> -->
                         <li>
                             <h4>Stok Awal</h4>
                             <h6><?= $product->stokawal; ?></h6>
@@ -61,7 +57,11 @@
                         </li>
                         <li>
                             <h4>Status</h4>
-                            <h6>Active</h6>
+                            <?php if ($product->inactive == "f") : ?>
+                                <h6>Tidak Aktif</h6>
+                            <?php else : ?>
+                                <h6>Aktif</h6>
+                            <?php endif; ?>
                         </li>
                         <li>
                             <h4>Deskripsi</h4>

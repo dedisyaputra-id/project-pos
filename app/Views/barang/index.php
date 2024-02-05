@@ -75,7 +75,7 @@
                             </td>
                             <td class="productimgname">
                                 <a href="javascript:void(0);" class="product-img">
-                                    <img src="<?php base_url() ?>/assets/gambar-produk/<?= $brg->file_gambar ?>" alt="product">
+                                    <img src="<?php base_url() ?>/assets/gambar-produk/<?= $brg->file_gambar ?>" alt="product" style="object-fit: cover;">
                                 </a>
                                 <a href="javascript:void(0);"><?= $brg->barangname ?></a>
                             </td>
@@ -88,7 +88,7 @@
                             <td><?= $brg->opadd; ?></td>
 
                             <td>
-                                <a class="me-3" href="/barang/<?= $brg->barangcode; ?>">
+                                <a class="me-3" href="/barang/<?= $brg->barangid; ?>">
                                     <img src="<?php base_url() ?>/assets/img/icons/eye.svg" alt="img">
                                 </a>
                                 <a class="me-3" href="/barang/edit/<?= $brg->barangid ?>">

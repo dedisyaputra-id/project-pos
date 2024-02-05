@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class BarangModel extends Model
 {
     protected $table = "tbm_barang";
-    protected $allowedFields = ["barangid", "barangname", "stokawal", "barangcode", "hargabeli", "hargajual", "hargapp", "remarks", "satuan", "opadd", "pcadd", "luadd", "file_gambar"];
+    protected $allowedFields = ["barangid", "barangname", "stokawal", "barangcode", "hargabeli", "hargajual", "hargapp", "remarks", "satuan", "opadd", "pcadd", "luadd", "file_gambar", "inactive"];
 
     public function getProduk($barangcode = false)
     {
