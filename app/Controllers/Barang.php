@@ -17,8 +17,7 @@ class Barang extends BaseController
     }
     public function index(): string
     {
-        session();
-        $query = "SELECT * FROM tbm_barang WHERE dlt=? ORDER BY barangid DESC";
+        $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt='f' ORDER BY barangid DESC";
         $produk = $this->db->query($query, 'f')->getResult();
         $data = [
             "title" => "Barang",
@@ -28,13 +27,18 @@ class Barang extends BaseController
     }
     public function create()
     {
+        $query = "SELECT jenisid,jenisname FROM tbm_jenis_barang WHERE dlt=?";
+        $kategori = $this->db->query($query, 'f')->getResult();
         $data = [
             "title" => "Tambah barang",
+            "kategori" => $kategori
         ];
         return view("barang/tambahbarang", $data);
     }
     public function save()
     {
+        $query = "SELECT jenisid,jenisname FROM tbm_jenis_barang WHERE dlt=?";
+        $kategori = $this->db->query($query, 'f')->getResult();
         if (!$this->validate([
             "barangname" => [
                 "rules" => "required",
@@ -85,12 +89,19 @@ class Barang extends BaseController
                     "max_size" => "Ukuran gambar produk harus kurang dari 2 MB",
                     "ext_in" => "Format gambar harus png ataujpg"
                 ]
+            ],
+            "jenisid" => [
+                "rules" => "required",
+                "errors" => [
+                    "required" => "Kategori tidak boleh kosong",
+                ]
             ]
         ])) {
             $validation = \Config\Services::validation();
             $data = [
                 "title" => "Tambah barang",
-                "validation" => $validation
+                "validation" => $validation,
+                "kategori" => $kategori
             ];
             return view("barang/tambahbarang", $data);
         } else {
@@ -114,11 +125,12 @@ class Barang extends BaseController
             $pcadd = $this->request->getIPAddress();
             $luadd = date("Y-m-d H:i:s");
             $inactive = $this->request->getPost('inactive');
+            $jenisid = $this->request->getPost("jenisid");
 
-            $query = "INSERT INTO tbm_barang(barangid,file_gambar,barangname, stokawal, barangcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+            $query = "INSERT INTO tbm_barang(barangid,file_gambar,barangname, stokawal, barangcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,inactive, jenisid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
             $this->db->query($query, [
                 $barangid, $gambar, $barangname, $stokawal, $barangcode,
-                $hargabeli, $hargajual, $hargapp, $remarks, $satuan, $opadd, $pcadd, $luadd, $inactive
+                $hargabeli, $hargajual, $hargapp, $remarks, $satuan, $opadd, $pcadd, $luadd, $inactive, $jenisid
             ]);
             session()->setFlashdata("success", "Data berhasil disimpan");
             return redirect()->to("/barang");
@@ -126,10 +138,10 @@ class Barang extends BaseController
     }
     public function detail(string $barangid)
     {
-        $query = "SELECT * FROM tbm_barang WHERE barangid =?";
+        $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargapp as hargappbarang, tbrg.stokawal as stok, tbrg.inactive as statusbarang, tbrg.remarks as deskripsi, jenisname FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=?";
         $product = $this->db->query($query, $barangid)->getRow();
         $data = [
-            "title" => "Detail produk",
+            "title" => "Detail barang",
             "product" => $product
         ];
         if (empty($data["product"])) {
@@ -139,15 +151,23 @@ class Barang extends BaseController
     }
     public function edit($barangid)
     {
-        $query = "SELECT * FROM tbm_barang WHERE barangid=?";
+        $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=?";
+        $barang = $this->db->query($query, $barangid)->getRow();
+        $querykategori = "SELECT jenisid,jenisname FROM tbm_jenis_barang WHERE jenisname !=?";
         $data = [
             "title" => "edit barang",
-            "barang" => $this->db->query($query, $barangid)->getRow()
+            "barang" => $barang,
+            "kategori" => $this->db->query($querykategori, $barang->jenisname)->getResult()
         ];
         return view("/barang/editbarang", $data);
     }
     public function update($barangid)
     {
+        $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=?";
+
+        $barang = $this->db->query($query, $barangid)->getRow();
+        $querykategori = "SELECT jenisid,jenisname FROM tbm_jenis_barang WHERE jenisname !=?";
+
         $gambar = $this->request->getFile("file_gambar");
         $barangcode = $this->request->getVar("barangcode");
         $barangname = $this->request->getVar("barangname");
@@ -161,6 +181,7 @@ class Barang extends BaseController
         $inactive = $this->request->getPost("inactive");
         $opedit = "admin";
         $luedit = date("Y-m-d H:i:s");
+        $kategori = $this->request->getPost("jenisid");
 
         $validation = $this->validate([
             "barangname" => [
@@ -215,33 +236,32 @@ class Barang extends BaseController
         ]);
         if (!$validation) {
             $validation = \Config\Services::validation();
-            $query = "SELECT * FROM tbm_barang WHERE barangid=?";
             $data = [
                 "title" => "edit barang",
                 "validation" => $validation,
-                "barang" => $this->db->query($query, $barangid)->getRow()
+                "barang" => $barang,
+                "kategori" => $this->db->query($querykategori, $barang->jenisname)->getResult()
             ];
+
             return view("barang/editbarang", $data);
         } else {
-            $selectBarang = "SELECT * FROM tbm_barang WHERE barangid=?";
-            $barang = $this->db->query($selectBarang, $barangid)->getRow();
-            if ($gambar == "") {
-                if (empty($barang)) {
-                    throw new \CodeIgniter\Exceptions\PageNotFoundException("title " . $barangid . " not found");
+            if (empty($barang)) {
+                throw new \CodeIgniter\Exceptions\PageNotFoundException("title " . $barangid . " not found");
+            } else {
+                if ($gambar == "") {
+                    $query = "UPDATE tbm_barang SET barangcode=?, barangname=?, stokawal=?, hargapp=?,hargajual=?, hargabeli=?, satuan=?, remarks=?, pcedit=?, opedit=?, luedit=?, inactive=?, jenisid=? WHERE barangid=?";
+                    $this->db->query($query, [$barangcode, $barangname, $stokawal, $hargapp, $hargajual, $hargabeli, $satuan, $remarks, $ipAddress, $opedit, $luedit, $inactive, $kategori, $barangid]);
+                    session()->setFlashdata("success", "Update data barang berhasil");
+                    return redirect()->to("/barang");
                 } else {
-                    $query = "UPDATE tbm_barang SET barangcode=?, barangname=?, stokawal=?, hargapp=?,hargajual=?, hargabeli=?, satuan=?, remarks=?, pcedit=?, opedit=?, luedit=?, inactive=? WHERE barangid=?";
-                    $this->db->query($query, [$barangcode, $barangname, $stokawal, $hargapp, $hargajual, $hargabeli, $satuan, $remarks, $ipAddress, $opedit, $luedit, $inactive, $barangid]);
+                    unlink("assets/gambar-produk/" . $barang->file_gambar);
+                    $gambar->move("assets/gambar-produk", $barang->barangid . "." . $gambar->getExtension());
+                    $file_gambar = $gambar->getName();
+                    $query = "UPDATE tbm_barang SET file_gambar=?, barangcode=?, barangname=?, stokawal=?, hargapp=?,hargajual=?, hargabeli=?, satuan=?, remarks=?, pcedit=?, opedit=?, luedit=?, inactive=?, jenisid? WHERE barangid=?";
+                    $this->db->query($query, [$file_gambar, $barangcode, $barangname, $stokawal, $hargapp, $hargajual, $hargabeli, $satuan, $remarks, $ipAddress, $opedit, $luedit, $inactive, $kategori, $barangid]);
                     session()->setFlashdata("success", "Update data barang berhasil");
                     return redirect()->to("/barang");
                 }
-            } else {
-                unlink("assets/gambar-produk/" . $barang->file_gambar);
-                $gambar->move("assets/gambar-produk", $barang->barangid . "." . $gambar->getExtension());
-                $file_gambar = $gambar->getName();
-                $query = "UPDATE tbm_barang SET file_gambar=?, barangcode=?, barangname=?, stokawal=?, hargapp=?,hargajual=?, hargabeli=?, satuan=?, remarks=?, pcedit=?, opedit=?, luedit=?, inactive=? WHERE barangid=?";
-                $this->db->query($query, [$file_gambar, $barangcode, $barangname, $stokawal, $hargapp, $hargajual, $hargabeli, $satuan, $remarks, $ipAddress, $opedit, $luedit, $inactive, $barangid]);
-                session()->setFlashdata("success", "Update data barang berhasil");
-                return redirect()->to("/barang");
             }
         }
     }

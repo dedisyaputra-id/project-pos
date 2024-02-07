@@ -8,7 +8,7 @@
 </div>
 <div class="card">
     <div class="card-body">
-        <form action="/barang/update/<?= $barang->barangid ?>" method="post" enctype="multipart/form-data">
+        <form action="/barang/update/<?= $barang->idbarang ?>" method="post" enctype="multipart/form-data">
             <?php csrf_field() ?>
             <input type="hidden" name="_method" value="PUT">
             <?php if (isset($validation)) : ?>
@@ -25,7 +25,7 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Nama Barang</label>
-                            <input type="text" name="barangname" autofocus class="form-control <?= (($validation->getError("barangname")) ? "is-invalid" : ""); ?>" value="<?= ($_POST["barangname"] ? $_POST["barangname"] : $barang->barangname); ?>">
+                            <input type="text" name="barangname" autofocus class="form-control <?= (($validation->getError("barangname")) ? "is-invalid" : ""); ?>" value="<?= ($_POST["barangname"] ? $_POST["barangname"] : $barang->namabarang); ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                                 <?= $validation->getError("barangname") ?>
                             </div>
@@ -33,35 +33,8 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
-                            <label>Kategori</label>
-                            <select class="form-select">
-                                <option>Pilih Category</option>
-                                <option>Computers</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
-                            <label>Merek</label>
-                            <select class="form-select">
-                                <option>Pilih Merek</option>
-                                <option>Brand</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
-                            <label>Unit</label>
-                            <select class="form-select">
-                                <option>Pilih Unit</option>
-                                <option>Unit</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
                             <label>Stok Awal</label>
-                            <input type="text" name="stokawal" class="form-control <?= ($validation->getError("stokawal") ? "is-invalid" : "")  ?>" value="<?= ($_POST["stokawal"] ? $_POST["stokawal"] : $barang->stokawal); ?>">
+                            <input type="text" name="stokawal" class="form-control <?= ($validation->getError("stokawal") ? "is-invalid" : "")  ?>" value="<?= ($_POST["stokawal"] ? $_POST["stokawal"] : $barang->stok); ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                                 <?= ($validation->getError("stokawal")) ?>
                             </div>
@@ -70,22 +43,34 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Kode Barang</label>
-                            <input type="text" name="barangcode" class=" form-control <?= ($validation->getError("barangcode") ? "is-invalid" : "")  ?>" value="<?= ($_POST["barangcode"] ? $_POST["barangcode"] : $barang->barangcode); ?>">
+                            <input type="text" name="barangcode" class=" form-control <?= ($validation->getError("barangcode") ? "is-invalid" : "")  ?>" value="<?= ($_POST["barangcode"] ? $_POST["barangcode"] : $barang->kodebarang); ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                                 <?= $validation->getError("barangcode"); ?>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="mb-3">
+                            <label>Kategori</label>
+                            <select class="form-select" name="jenisid">
+                                <option>Pilih Kategori</option>
+                                <option value="<?= $barang->jenisid; ?>" selected><?= $barang->jenisname; ?></option>
+                                <?php foreach ($kategori as $ktg) : ?>
+                                    <option value="<?= $ktg->jenisid; ?>"><?= $ktg->jenisname; ?></option>
+                                <?php endforeach ?>
+                            </select>
+                        </div>
+                    </div>
                     <div class="col-lg-12">
                         <div class="mb-3">
                             <label>Deskripsi</label>
-                            <textarea class="form-control" name="remarks" rows="4"><?= ($_POST["remarks"] ? $_POST["remarks"] : $barang->remarks)  ?></textarea>
+                            <textarea class="form-control" name="remarks" rows="4"><?= ($_POST["remarks"] ? $_POST["remarks"] : $barang->deskripsi)  ?></textarea>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Harga Beli</label>
-                            <input type="text" name="hargabeli" class="form-control <?= ($validation->getError("hargabeli") ? "is-invalid" : "")  ?>" value="<?= ($_POST["hargabeli"] ? $_POST["hargabeli"] : $barang->hargabeli); ?>">
+                            <input type="text" name="hargabeli" class="form-control <?= ($validation->getError("hargabeli") ? "is-invalid" : "")  ?>" value="<?= ($_POST["hargabeli"] ? $_POST["hargabeli"] : $barang->hargabelibarang); ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                                 <?= $validation->getError("hargabeli"); ?>
                             </div>
@@ -94,7 +79,7 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Harga App</label>
-                            <input type="text" name="hargapp" class="form-control <?= ($validation->getError("hargapp") ? "is-invalid" : "")  ?>" value="<?= ($_POST["hargapp"] ? $_POST["hargapp"] : $barang->hargapp); ?>">
+                            <input type="text" name="hargapp" class="form-control <?= ($validation->getError("hargapp") ? "is-invalid" : "")  ?>" value="<?= ($_POST["hargapp"] ? $_POST["hargapp"] : $barang->hargappbarang); ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                                 <?= $validation->getError("hargapp"); ?>
                             </div>
@@ -103,7 +88,7 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Harga Jual</label>
-                            <input type="text" name="hargajual" class="form-control <?= ($validation->getError("hargajual") ? "is-invalid" : "")  ?>" value="<?= ($_POST["hargajual"] ? $_POST["hargajual"] : $barang->hargajual); ?>">
+                            <input type="text" name="hargajual" class="form-control <?= ($validation->getError("hargajual") ? "is-invalid" : "")  ?>" value="<?= ($_POST["hargajual"] ? $_POST["hargajual"] : $barang->hargajualbarang); ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                                 <?= $validation->getError("hargajual"); ?>
                             </div>
@@ -129,11 +114,11 @@
                                         <option value="Ons" selected>Ons</option>
                                     <?php endif; ?>
                                 <?php else : ?>
-                                    <?php if ($barang->satuan == "Gram") : ?>
+                                    <?php if ($barang->unit == "Gram") : ?>
                                         <option value="Gram" selected>Gram</option>
                                         <option value="KG">KG</option>
                                         <option value="Ons">Ons</option>
-                                    <?php elseif ($barang->satuan == "KG") : ?>
+                                    <?php elseif ($barang->unit == "KG") : ?>
                                         <option value="Gram">Gram</option>
                                         <option value="KG" selected>KG</option>
                                         <option value="Ons">Ons</option>
@@ -161,10 +146,10 @@
                                         <option value="t" selected>t</option>
                                     <?php endif; ?>
                                 <?php else : ?>
-                                    <?php if ($barang->inactive == "f") : ?>
+                                    <?php if ($barang->status == "f") : ?>
                                         <option value="f" selected>f</option>
                                         <option value="t">t</option>
-                                    <?php elseif ($barang->inactive == "t") : ?>
+                                    <?php elseif ($barang->status == "t") : ?>
                                         <option value="f">f</option>
                                         <option value="t" selected>t</option>
                                     <?php endif; ?>
@@ -190,42 +175,7 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Nama Produk</label>
-                            <input type="text" name="barangname" autofocus class="form-control" value="<?= $barang->barangname; ?>">
-                            <div id="validationServer04Feedback" class="invalid-feedback">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
-                            <label>Kategori</label>
-                            <select class="form-select">
-                                <option>Pilih Category</option>
-                                <option>Computers</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
-                            <label>Merek</label>
-                            <select class="form-select">
-                                <option>Pilih Merek</option>
-                                <option>Brand</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
-                            <label>Unit</label>
-                            <select class="form-select">
-                                <option>Pilih Unit</option>
-                                <option>Unit</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="mb-3">
-                            <label>Stok Awal</label>
-                            <input type="text" name="stokawal" class="form-control" value="<?= $barang->stokawal; ?>">
+                            <input type="text" name="barangname" autofocus class="form-control" value="<?= $barang->namabarang; ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                             </div>
                         </div>
@@ -233,21 +183,41 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Kode Barang</label>
-                            <input type="text" name="barangcode" class=" form-control" value="<?= $barang->barangcode; ?>">
+                            <input type="text" name="barangcode" class=" form-control" value="<?= $barang->kodebarang; ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="mb-3">
+                            <label>Stok Awal</label>
+                            <input type="text" name="stokawal" class="form-control" value="<?= $barang->stok; ?>">
+                            <div id="validationServer04Feedback" class="invalid-feedback">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="mb-3">
+                            <label>Kategori</label>
+                            <select class="form-select" name="jenisid">
+                                <option>Pilih Category</option>
+                                <option value="<?= $barang->jenisid; ?>" selected><?= $barang->jenisname; ?></option>
+                                <?php foreach ($kategori as $ktg) : ?>
+                                    <option value="<?= $ktg->jenisid; ?>"><?= $ktg->jenisname; ?></option>
+                                <?php endforeach ?>
+                            </select>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="mb-3">
                             <label>Deskripsi</label>
-                            <textarea class="form-control" name="remarks" rows="4"><?= $barang->remarks ?></textarea>
+                            <textarea class="form-control" name="remarks" rows="4"><?= $barang->deskripsi ?></textarea>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Harga Beli</label>
-                            <input type="text" name="hargabeli" class="form-control" value="<?= $barang->hargabeli; ?>">
+                            <input type="text" name="hargabeli" class="form-control" value="<?= $barang->hargabelibarang; ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                             </div>
                         </div>
@@ -255,7 +225,7 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Harga App</label>
-                            <input type="text" name="hargapp" class="form-control" value="<?= $barang->hargapp; ?>">
+                            <input type="text" name="hargapp" class="form-control" value="<?= $barang->hargappbarang; ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                             </div>
                         </div>
@@ -263,7 +233,7 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="mb-3">
                             <label>Harga Jual</label>
-                            <input type="text" name="hargajual" class="form-control" value="<?= $barang->hargajual; ?>">
+                            <input type="text" name="hargajual" class="form-control" value="<?= $barang->hargajualbarang; ?>">
                             <div id="validationServer04Feedback" class="invalid-feedback">
                             </div>
                         </div>
@@ -273,11 +243,11 @@
                             <label>Satuan</label>
                             <select class="form-select" name="satuan">
                                 <option value="">Pilih Satuan</option>
-                                <?php if ($barang->satuan == "Gram") : ?>
+                                <?php if ($barang->unit == "Gram") : ?>
                                     <option value="Gram" selected>Gram</option>
                                     <option value="KG">KG</option>
                                     <option value="Ons">Ons</option>
-                                <?php elseif ($barang->satuan == "KG") : ?>
+                                <?php elseif ($barang->unit == "KG") : ?>
                                     <option value="Gram">Gram</option>
                                     <option value="KG" selected>KG</option>
                                     <option value="Ons">Ons</option>
@@ -295,10 +265,10 @@
                         <div class="mb-4">
                             <label>Status</label>
                             <select class="form-select" name="inactive">
-                                <?php if ($barang->inactive == "f") : ?>
+                                <?php if ($barang->status == "f") : ?>
                                     <option value="f" selected>Tidak Aktif</option>
                                     <option value="t">Aktif</option>
-                                <?php elseif ($barang->inactive == "t") : ?>
+                                <?php elseif ($barang->status == "t") : ?>
                                     <option value="f">Tidak Aktif</option>
                                     <option value="t" selected>Aktif</option>
                                 <?php else : ?>

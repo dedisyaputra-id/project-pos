@@ -21,43 +21,35 @@
                     <ul class="product-bar">
                         <li>
                             <h4>Kode Barang</h4>
-                            <h6><?= $product->barangcode; ?></h6>
+                            <h6><?= $product->kodebarang; ?></h6>
                         </li>
                         <li>
                             <h4>Nama Barang</h4>
-                            <h6><?= $product->barangname; ?></h6>
+                            <h6><?= $product->namabarang; ?></h6>
                         </li>
                         <li>
                             <h4>Kategori</h4>
-                            <h6>Computers</h6>
+                            <h6><?= $product->jenisname; ?></h6>
                         </li>
-                        <!-- <li>
-                            <h4>Brand</h4>
-                            <h6>None</h6>
-                        </li>
-                        <li>
-                            <h4>Unit</h4>
-                            <h6>Piece</h6>
-                        </li> -->
                         <li>
                             <h4>Stok Awal</h4>
-                            <h6><?= $product->stokawal; ?></h6>
+                            <h6><?= number_format($product->stok, 0, ",", "."); ?></h6>
                         </li>
                         <li>
                             <h4>Harga Jual</h4>
-                            <h6><?= $product->hargajual; ?></h6>
+                            <h6>Rp. <?= number_format($product->hargajualbarang, 0, ",", "."); ?></h6>
                         </li>
                         <li>
                             <h4>Harga Beli</h4>
-                            <h6><?= $product->hargabeli; ?></h6>
+                            <h6>Rp. <?= number_format($product->hargabelibarang, 0, ",", "."); ?></h6>
                         </li>
                         <li>
                             <h4>Harga App</h4>
-                            <h6><?= $product->hargapp; ?></h6>
+                            <h6>Rp. <?= number_format($product->hargappbarang, 0, ",", "."); ?></h6>
                         </li>
                         <li>
                             <h4>Status</h4>
-                            <?php if ($product->inactive == "f") : ?>
+                            <?php if ($product->statusbarang == "f") : ?>
                                 <h6>Tidak Aktif</h6>
                             <?php else : ?>
                                 <h6>Aktif</h6>
@@ -65,7 +57,7 @@
                         </li>
                         <li>
                             <h4>Deskripsi</h4>
-                            <h6><?= $product->remarks; ?></h6>
+                            <h6><?= $product->deskripsi; ?></h6>
                         </li>
                     </ul>
                 </div>
@@ -78,9 +70,9 @@
                 <div class="slider-product-details">
                     <div class="owl-carousel owl-theme product-slide">
                         <div class="slider-product">
-                            <img src="<?php base_url() ?>/assets/gambar-produk/<?= $product->file_gambar ?>" alt="img">
-                            <h4><?= $product->barangname; ?></h4>
-                            <h6><?= $product->hargapp; ?></h6>
+                            <img src="<?php base_url() ?>/assets/gambar-produk/<?= $product->gambarbarang ?>" alt="img">
+                            <h4><?= $product->namabarang; ?></h4>
+                            <h6>Rp. <?= number_format($product->hargappbarang, 0, ",", "."); ?></h6>
                         </div>
                     </div>
                 </div>

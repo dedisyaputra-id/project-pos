@@ -17,11 +17,9 @@
                     <a href="/barang" class="<?= ($title == "Barang") ? "active" : ""  ?>"> <img src="<?php echo base_url("/assets/img/icons/product.svg") ?>" alt="img" />
                         <span>Daftar Barang</span>
                     </a>
-                    <a href="/barang/tambah"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Barang</span></a>
-                    <a href="/barang/kategori" class="<?= ($title == "Daftar kategori") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/codepen.svg") ?>" alt="img" /><span>Daftar Kategori</span></a>
-                    <a href="addcategory.html"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Kategori</span></a>
-                    <a href="subcategorylist.html"><img src="<?php echo base_url("/assets/img/icons/speaker (1).svg") ?>" alt="img" /><span>Daftar Sub Kategori </span></a>
-                    <a href="subaddcategory.html"><img src="<?php echo base_url("/assets/img/icons/plus.svg") ?>" alt="img" /><span>Tambah Sub Kategori</span></a>
+                    <a href="/barang/tambah" class="<?= ($title == "Tambah barang") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Barang</span></a>
+                    <a href="/kategori" class="<?= ($title == "Daftar kategori") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/codepen.svg") ?>" alt="img" /><span>Daftar Kategori</span></a>
+                    <a href="/tambahkategori" class="<?= ($title == "Tambah kategori") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Kategori</span></a>
                     <a href="barcode.html"> <img src="<?php echo base_url("/assets/img/icons/align-justify.svg") ?>" alt="img" /><span>Cetak Barcode</span></a>
                 </li>
                 <li class="submenu">

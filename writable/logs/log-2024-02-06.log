@@ -1,0 +1,640 @@
+INFO - 2024-02-06 01:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 01:02:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 01:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 01:03:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 01:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-06 01:07:15 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ... as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_b...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #151, 'SELECT tbrg.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.bar...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 01:07:15 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ... as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:07:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ... as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 3 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:07:15 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ... as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ... as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_b...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 5 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 01:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-06 01:07:45 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #151, 'SELECT tbrg.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.bar...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 01:07:45 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:07:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 3 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:07:45 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 5 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 01:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-06 01:08:24 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #152, 'SELECT tbrg.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.bar...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 01:08:24 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:08:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 3 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:08:24 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: ...tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_b...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC')
+ 5 APPPATH\Controllers\Barang.php(22): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,tbm_jenis_barang.jenisname, FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=\'f\' ORDER BY barangid DESC', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 01:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 01:08:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 01:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 01:18:59 --> Error: Call to undefined function number_to_amount()
+in APPPATH\Views\barang\barangdetail.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 4 APPPATH\Controllers\Barang.php(151): view('barang/barangdetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('38')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 01:19:27 --> Error: Call to undefined function number_to_amount()
+in APPPATH\Views\barang\barangdetail.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 4 APPPATH\Controllers\Barang.php(151): view('barang/barangdetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('38')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 01:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 01:22:14 --> ErrorException: number_format() expects parameter 2 to be int, string given
+in APPPATH\Views\barang\barangdetail.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 2 to be int, string given', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\barangdetail.php', 36, [...])
+ 2 APPPATH\Views\barang\barangdetail.php(36): number_format('23232', ',', '.')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\barangdetail.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barang/barangdetail', [], true)
+ 6 APPPATH\Controllers\Barang.php(151): view('barang/barangdetail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->detail('38')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 01:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 01:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 06:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 06:51:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 06:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 06:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 06:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 06:52:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 06:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 06:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 06:55:58 --> ErrorException: Undefined property: stdClass::$jenisbarang
+in APPPATH\Views\barang\editbarang.php on line 201.
+ 1 APPPATH\Views\barang\editbarang.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jenisbarang', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 201, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(160): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('46')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 06:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 06:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:13:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:13:37 --> ErrorException: Undefined variable: kategori
+in APPPATH\Views\barang\editbarang.php on line 202.
+ 1 APPPATH\Views\barang\editbarang.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 202, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(160): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('46')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 07:19:32 --> ErrorException: Trying to get property 'jenisid' of non-object
+in APPPATH\Views\barang\editbarang.php on line 202.
+ 1 APPPATH\Views\barang\editbarang.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jenisid\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 202, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(162): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('46')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 07:21:48 --> ErrorException: Trying to get property 'jenisname' of non-object
+in APPPATH\Views\barang\editbarang.php on line 204.
+ 1 APPPATH\Views\barang\editbarang.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jenisname\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 204, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(162): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('46')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 07:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:36:01 --> ErrorException: Undefined variable: kategori
+in APPPATH\Controllers\Barang.php on line 160.
+ 1 APPPATH\Controllers\Barang.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Barang.php', 160, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('46')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 07:36:23 --> ErrorException: Undefined variable: kategori
+in APPPATH\Controllers\Barang.php on line 160.
+ 1 APPPATH\Controllers\Barang.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\Barang.php', 160, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('46')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 07:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:46:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:47:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-06 07:47:35 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_j...
+                                                          ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #135, 'SELECT jenisid,...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT jenisid,...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jenisid,...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Kategori.php(20): CodeIgniter\Database\BaseConnection->query('SELECT jenisid,...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 07:47:35 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_j...
+                                                          ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Kategori.php(20): CodeIgniter\Database\BaseConnection->query('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=? ORDER BY jenisid DESC', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 07:47:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_j...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=\'f\' ORDER BY jenisid DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=\'f\' ORDER BY jenisid DESC')
+ 3 APPPATH\Controllers\Kategori.php(20): CodeIgniter\Database\BaseConnection->query('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=? ORDER BY jenisid DESC', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 07:47:35 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_j...
+                                                          ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 1: SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_j...
+                                                          ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=\'f\' ORDER BY jenisid DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=\'f\' ORDER BY jenisid DESC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=\'f\' ORDER BY jenisid DESC')
+ 5 APPPATH\Controllers\Kategori.php(20): CodeIgniter\Database\BaseConnection->query('SELECT jenisid,jenisname,jeniscode,remarks,opadd, FROM tbm_jenis_barang WHERE dlt=? ORDER BY jenisid DESC', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 07:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:48:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:49:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:50:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:50:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:50:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:50:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:55:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:56:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:56:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:56:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-06 07:56:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-06 07:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-06 08:15:38 --> ErrorException: pg_query(): Query failed: ERROR:  column tbm_jenis_barang.kodebarang does not exist
+LINE 1: ...jenis_barang.jenisid WHERE tbrg.barangid='47' AND tbm_jenis_...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #138, 'SELECT tbrg.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(156): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.bar...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 08:15:38 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column tbm_jenis_barang.kodebarang does not exist
+LINE 1: ...jenis_barang.jenisid WHERE tbrg.barangid='47' AND tbm_jenis_...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(156): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=? AND tbm_jenis_barang.kodebarang =?', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:15:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column tbm_jenis_barang.kodebarang does not exist
+LINE 1: ...jenis_barang.jenisid WHERE tbrg.barangid='47' AND tbm_jenis_...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=\'47\' AND tbm_jenis_barang.kodebarang =NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=\'47\' AND tbm_jenis_barang.kodebarang =NULL')
+ 3 APPPATH\Controllers\Barang.php(156): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=? AND tbm_jenis_barang.kodebarang =?', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:15:38 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column tbm_jenis_barang.kodebarang does not exist
+LINE 1: ...jenis_barang.jenisid WHERE tbrg.barangid='47' AND tbm_jenis_...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column tbm_jenis_barang.kodebarang does not exist
+LINE 1: ...jenis_barang.jenisid WHERE tbrg.barangid=\'47\' AND tbm_jenis_...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=\'47\' AND tbm_jenis_barang.kodebarang =NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=\'47\' AND tbm_jenis_barang.kodebarang =NULL')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=\'47\' AND tbm_jenis_barang.kodebarang =NULL')
+ 5 APPPATH\Controllers\Barang.php(156): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg RIGHT JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=? AND tbm_jenis_barang.kodebarang =?', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-06 08:20:05 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbrg&quot;
+LINE 1: SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbar...
+               ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #138, 'SELECT tbrg.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.bar...', '47')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 08:20:05 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbrg&quot;
+LINE 1: SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbar...
+               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=?', '47')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:20:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbrg&quot;
+LINE 1: SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbar...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=\'47\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=\'47\'')
+ 3 APPPATH\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=?', '47')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:20:05 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbrg&quot;
+LINE 1: SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbar...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbrg&quot;
+LINE 1: SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbar...
+               ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=\'47\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=\'47\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=\'47\'')
+ 5 APPPATH\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang WHERE tbrg.barangid=?', '47')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-06 08:20:28 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;jenisname&quot; does not exist
+LINE 1: ...tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname,...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #138, 'SELECT tbrg.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.bar...', '47')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-06 08:20:28 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;jenisname&quot; does not exist
+LINE 1: ...tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname,...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=?', '47')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:20:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;jenisname&quot; does not exist
+LINE 1: ...tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname,...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=\'47\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=\'47\'')
+ 3 APPPATH\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=?', '47')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:20:28 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;jenisname&quot; does not exist
+LINE 1: ...tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname,...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;jenisname&quot; does not exist
+LINE 1: ...tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname,...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=\'47\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=\'47\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=\'47\'')
+ 5 APPPATH\Controllers\Barang.php(157): CodeIgniter\Database\BaseConnection->query('SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg WHERE tbrg.barangid=?', '47')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 08:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 08:47:37 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\barang\editbarang.php on line 201.
+ 1 APPPATH\Views\barang\editbarang.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 201, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(161): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-06 08:47:59 --> ErrorException: Undefined variable: querykategori
+in APPPATH\Views\barang\editbarang.php on line 201.
+ 1 APPPATH\Views\barang\editbarang.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: querykategori', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 201, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(161): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 08:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 08:50:02 --> ErrorException: Trying to get property 'jenisname' of non-object
+in APPPATH\Views\barang\editbarang.php on line 202.
+ 1 APPPATH\Views\barang\editbarang.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jenisname\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php', 202, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barang\\editbarang.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/barang/editbarang', [], true)
+ 5 APPPATH\Controllers\Barang.php(161): view('/barang/editbarang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Barang->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-06 08:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

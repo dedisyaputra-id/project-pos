@@ -1,13 +1,13 @@
-<?= $this->extend("layouts/maintemplate"); ?>
-<?= $this->section("content"); ?>
-
+<?= $this->extend("layouts/maintemplate.php") ?>
+<?= $this->section("content") ?>
 <div class="page-header">
     <div class="page-title">
-        <h4>Daftar Barang</h4>
-        <h6>Atur data barang anda</h6>
+        <h4>Daftar Kategori Barang</h4>
     </div>
     <div class="page-btn">
-        <a href="/barang/tambah" class="btn btn-added"><img src="<?php base_url() ?>/assets/img/icons/plus.svg" alt="img" class="me-1">Tambah Barang Baru</a>
+        <a href="/tambahkategori" class="btn btn-added">
+            <img src="<?php echo base_url() ?>/assets/img/icons/plus.svg" class="me-1" alt="img">Tambah Kategori
+        </a>
     </div>
 </div>
 <?php if (session()->getFlashdata("success")) : ?>
@@ -53,46 +53,35 @@
                                 <span class="checkmarks"></span>
                             </label>
                         </th>
-                        <th>Nama Barang</th>
-                        <th>Kode Barang</th>
-                        <th>Kategori</th>
-                        <th>Harga</th>
-                        <th>Stok Awal</th>
-                        <th>Ditambah Oleh</th>
+                        <th>Nama Kategori</th>
+                        <th>Kode Kategori</th>
+                        <th>Deskripsi</th>
+                        <th>Dibuat Oleh</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($barang as $brg) : ?>
+                    <?php foreach ($kategori as $ktg) : ?>
                         <tr>
                             <td>
                                 <label class="checkboxs">
                                     <input type="checkbox">
                                     <span class="checkmarks"></span>
                                 </label>
+
                             </td>
-                            <td class="productimgname">
-                                <a href="javascript:void(0);" class="product-img">
-                                    <img src="<?php base_url() ?>/assets/gambar-produk/<?= $brg->gambarbarang ?>" alt="product" style="object-fit: cover;">
-                                </a>
-                                <a href="javascript:void(0);"><?= $brg->namabarang ?></a>
-                            </td>
-                            <td><?= $brg->kodebarang ?></td>
-                            <td><?= $brg->jenisname; ?></td>
-                            <td>Rp. <?= number_format($brg->hargajualbarang, 0, ",", "."); ?></td>
-                            <td><?= number_format($brg->stok, 0, ",", "."); ?></td>
-                            <td><?= $brg->ditambaholeh; ?></td>
+                            <td><?= $ktg->jenisname; ?></td>
+                            <td><?= $ktg->jeniscode; ?></td>
+                            <td><?= $ktg->remarks; ?></td>
+                            <td><?= $ktg->opadd; ?></td>
                             <td>
-                                <a class="me-3" href="/barang/<?= $brg->idbarang; ?>">
-                                    <img src="<?php base_url() ?>/assets/img/icons/eye.svg" alt="img">
+                                <a class="me-3" href="/kategori/<?= $ktg->jeniscode; ?>">
+                                    <img src="<?php echo base_url() ?>/assets/img/icons/edit.svg" alt="img">
                                 </a>
-                                <a class="me-3" href="/barang/edit/<?= $brg->idbarang ?>">
-                                    <img src="<?php base_url() ?>/assets/img/icons/edit.svg" alt="img">
-                                </a>
-                                <form action="/barang/hapus/<?= $brg->idbarang ?>" method="post" class="d-inline">
+                                <form action="/kategori/hapus/<?= $ktg->jeniscode ?>" method="post" class="d-inline">
                                     <?php csrf_field() ?>
                                     <input type="hidden" name="_method" value="DELETE">
-                                    <button class="border-0" type="submit" onclick="return confirm('apakah anda yakin?')" style="background: none;">
+                                    <button class="border-0" type="submit" onclick="return confirm('apakah anda yakin ingin menghapus?')" style="background: none;">
                                         <img src="<?php base_url() ?>/assets/img/icons/delete.svg" alt="img">
                                     </button>
                                 </form>
@@ -104,4 +93,4 @@
         </div>
     </div>
 </div>
-<?= $this->endSection(); ?>
+<?= $this->endSection() ?>
