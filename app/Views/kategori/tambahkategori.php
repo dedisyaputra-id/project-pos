@@ -9,7 +9,7 @@
 
 <div class="card">
     <div class="card-body">
-        <form action="/barang/tambahkategori/simpan" method="post">
+        <form action="/tambahkategori/simpan" method="post">
             <?php csrf_field() ?>
             <div class="row">
                 <div class="col-lg-4 col-sm-4 col-12">

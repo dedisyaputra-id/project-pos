@@ -69,7 +69,7 @@ class Kategori extends BaseController
                 $pcadd, $luadd, $inactive
             ]);
             session()->setFlashdata("success", "Data berhasil disimpan");
-            return redirect()->to("/barang/kategori");
+            return redirect()->to("/kategori");
         }
     }
     public function edit($jeniscode)
