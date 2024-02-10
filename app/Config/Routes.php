@@ -21,3 +21,8 @@ $routes->post('/tambahkategori/simpan', 'Kategori::save');
 $routes->get('/kategori/(:alphanum)', 'Kategori::edit/$1');
 $routes->put('/kategori/ubah/(:alphanum)', 'Kategori::update/$1');
 $routes->delete('/kategori/hapus/(:alphanum)', 'Kategori::delete/$1');
+$routes->get("/pengguna", "User::index");
+$routes->get("/tambah/pengguna", "User::create");
+$routes->post("/tambah/pengguna/simpan", "User::save");
+$routes->get("/edit/pengguna/(:alphanum)", "User::edit/$1");
+$routes->delete("/hapus/pengguna/(:alphanum)", "User::delete/$1");

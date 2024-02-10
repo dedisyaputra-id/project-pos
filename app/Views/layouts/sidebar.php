@@ -64,7 +64,7 @@
                     <a href="purchasereturnlist.html"><img src="<?php echo base_url("/assets/img/icons/repeat.svg") ?>" alt="img" /> <span>Daftar Pembayaran Retur</span></a>
                     <a href="createpurchasereturn.html"><img src="<?php echo base_url("/assets/img/icons/trello.svg") ?>" alt="img" /> <span>Tambah Retur Pembayaran</span></a>
                 </li>
-                <li class="submenu">
+                <li class="">
                     <div class="submenu-open">
                         <h6 class="submenu-hdr">Orang</h6>
                     </div>
@@ -72,8 +72,8 @@
                     <a href="addcustomer.html"><img src="<?php echo base_url("/assets/img/icons/user-plu") ?>s.svg" alt="img" /> <span>Tambah Pembeli</span></a>
                     <a href="supplierlist.html"><img src="<?php echo base_url("/assets/img/icons/user-") ?>x.svg" alt="img" /> <span>Daftar Suplier</span></a>
                     <a href="addsupplier.html"><img src="<?php echo base_url("/assets/img/icons/chevrons-dow") ?>n.svg" alt="img" /> <span></span> Tambah Suplier</a>
-                    <a href="userlist.html"><img src="<?php echo base_url("/assets/img/icons/user-chec") ?>k.svg" alt="img" /> <span></span> Daftar Pengguna</a>
-                    <a href="adduser.html"><img src="<?php echo base_url("/assets/img/icons/arrow-dow") ?>n.svg" alt="img" /> <span></span> Tambah Pengguna</a>
+                    <a href="/pengguna" class="<?= ($title == "Pengguna") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/user-chec") ?>k.svg" alt="img" /> <span></span> Daftar Pengguna</a>
+                    <a href="/tambah/pengguna"><img src="<?php echo base_url("/assets/img/icons/arrow-dow") ?>n.svg" alt="img" /> <span></span> Tambah Pengguna</a>
                     <a href="storelist.html"><img src="<?php echo base_url("/assets/img/icons/airplay.svg") ?>" alt="img" /> <span></span> Daftar Toko</a>
                     <a href="addstore.html"><img src="<?php echo base_url("/assets/img/icons/aperture.svg") ?>" alt="img" /> <span></span> Tambah Toko</a>
                 </li>
