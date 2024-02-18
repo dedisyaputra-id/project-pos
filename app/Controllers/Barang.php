@@ -12,10 +12,9 @@ class Barang extends BaseController
     }
     public function index(): string
     {
-        // $this->db->cache_on();
         $n = 5000;
         $this->cachePage($n);
-        $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt='f' ORDER BY barangid DESC";
+        $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt=? ORDER BY barangid DESC";
         $produk = $this->db->query($query, 'f')->getResult();
         $data = [
             "title" => "Barang",

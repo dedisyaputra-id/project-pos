@@ -31,12 +31,12 @@
                     <a href="pos.html"> <img src="<?php echo base_url("/assets/img/icons/hard-drive.svg") ?>" alt="img" /> <span>POS</span></a>
                     <a href="pos.html"> <img src="<?php echo base_url("/assets/img/icons/plus.svg") ?>" alt="img" /><span>Penjualan Baru</span></a>
                 </li>
-                <li class="submenu">
+                <li class="">
                     <div class="submenu-open">
                         <h6 class="submenu-hdr"> Pembelian</h6>
                     </div>
-                    <a href="purchaselist.html"><img src="<?php echo base_url("/assets/img/icons/shopping-bag.svg") ?>" alt="img" /><span>Daftar Pembelian</span></a>
-                    <a href="addpurchase.html"> <img src="<?php echo base_url("/assets/img/icons/quotation1.svg") ?>" alt="img" /> <span>Tambah Pembelian</span> </a>
+                    <a href="/barangmasuk" class="<?= ($title == "Barang masuk") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/shopping-bag.svg") ?>" alt="img" /><span>Daftar Pembelian</span></a>
+                    <a href="/barangmasuk/tambah" class="<?= ($title == "Tambah barang masuk") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/quotation1.svg") ?>" alt="img" /> <span>Tambah Pembelian</span> </a>
                 </li>
                 <li class="submenu">
                     <div class="submenu-open">
@@ -70,8 +70,8 @@
                     </div>
                     <a href="customerlist.html"><img src="<?php echo base_url("/assets/img/icons/users.svg") ?>" alt="img" /> <span>Daftar Pembeli</span> </a>
                     <a href="addcustomer.html"><img src="<?php echo base_url("/assets/img/icons/user-plu") ?>s.svg" alt="img" /> <span>Tambah Pembeli</span></a>
-                    <a href="/supplier"><img src="<?php echo base_url("/assets/img/icons/user-") ?>x.svg" alt="img" /> <span>Daftar Suplier</span></a>
-                    <a href="/supplier/tambah" class="<?= ($tittle = "Tambah supplier") ? "active" : ""; ?>"><img src="<?php echo base_url("/assets/img/icons/chevrons-dow") ?>n.svg" alt="img" /> <span></span> Tambah Suplier</a>
+                    <a href="/supplier" class="<?= ($title == "Daftar suplier") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/user-") ?>x.svg" alt="img" /> <span>Daftar Suplier</span></a>
+                    <a href="/supplier/tambah" class="<?= ($title == "Tambah suplier") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/chevrons-dow") ?>n.svg" alt="img" /> <span></span> Tambah Suplier</a>
                     <a href="/pengguna" class="<?= ($title == "Pengguna") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/user-chec") ?>k.svg" alt="img" /> <span></span> Daftar Pengguna</a>
                     <a href="/tambah/pengguna" class="<?= ($title == "Tambah pengguna") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/arrow-dow") ?>n.svg" alt="img" /> <span></span> Tambah Pengguna</a>
                 </li>

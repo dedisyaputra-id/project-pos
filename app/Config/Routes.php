@@ -34,3 +34,6 @@ $routes->post("/supplier/simpan", "Supplier::save");
 $routes->get("/supplier/edit/(:num)", "Supplier::edit/$1");
 $routes->put("/supplier/update/(:num)", "Supplier::update/$1");
 $routes->delete("/supplier/delete/(:num)", "Supplier::delete/$1");
+$routes->get("/barangmasuk", "BarangMasuk::index");
+$routes->get("/barangmasuk/(:alphanum)", "BarangMasuk::detail/$1");
+$routes->delete("/barangmasuk/(:alphanum)", "BarangMasuk::delete/$1");
