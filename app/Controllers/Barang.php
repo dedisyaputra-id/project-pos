@@ -2,21 +2,19 @@
 
 namespace App\Controllers;
 
-use App\Models\BarangModel;
-
 class Barang extends BaseController
 {
-    protected $session;
-    protected $barangModel;
     protected $db;
-    protected $response;
     public function __construct()
     {
         $this->db = db_connect();
-        $this->barangModel = new BarangModel();
+        helper("form");
     }
     public function index(): string
     {
+        // $this->db->cache_on();
+        $n = 5000;
+        $this->cachePage($n);
         $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargajual as hargajualbarang, tbrg.opadd as ditambaholeh,tbrg.stokawal as stok,jenisname FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.dlt='f' ORDER BY barangid DESC";
         $produk = $this->db->query($query, 'f')->getResult();
         $data = [
@@ -31,14 +29,12 @@ class Barang extends BaseController
         $kategori = $this->db->query($query, 'f')->getResult();
         $data = [
             "title" => "Tambah barang",
-            "kategori" => $kategori
+            "kategori" => $kategori,
         ];
         return view("barang/tambahbarang", $data);
     }
     public function save()
     {
-        $query = "SELECT jenisid,jenisname FROM tbm_jenis_barang WHERE dlt=?";
-        $kategori = $this->db->query($query, 'f')->getResult();
         if (!$this->validate([
             "barangname" => [
                 "rules" => "required",
@@ -97,13 +93,7 @@ class Barang extends BaseController
                 ]
             ]
         ])) {
-            $validation = \Config\Services::validation();
-            $data = [
-                "title" => "Tambah barang",
-                "validation" => $validation,
-                "kategori" => $kategori
-            ];
-            return view("barang/tambahbarang", $data);
+            return redirect()->back()->withInput();
         } else {
             $barangId = $this->db->query("SELECT NEXTVAL('tbm_barang_nextid')")->getRow();
             $currval = $this->db->query("SELECT CURRVAL('tbm_barang_nextid')")->getRow();
@@ -166,7 +156,6 @@ class Barang extends BaseController
         $query = "SELECT tbrg.barangcode as kodebarang, tbrg.barangid as idbarang, tbrg.barangname as namabarang, tbrg.file_gambar as gambarbarang,tbrg.hargabeli as hargabelibarang,tbrg.hargajual as hargajualbarang, tbrg.hargapp as hargappbarang,tbrg.satuan as unit,tbrg.inactive as status,tbrg.stokawal as stok, tbrg.remarks as deskripsi, jenisname, tbm_jenis_barang.jenisid  FROM tbm_barang as tbrg JOIN tbm_jenis_barang ON tbrg.jenisid = tbm_jenis_barang.jenisid WHERE tbrg.barangid=?";
 
         $barang = $this->db->query($query, $barangid)->getRow();
-        $querykategori = "SELECT jenisid,jenisname FROM tbm_jenis_barang WHERE jenisname !=?";
 
         $gambar = $this->request->getFile("file_gambar");
         $barangcode = $this->request->getVar("barangcode");
@@ -235,15 +224,7 @@ class Barang extends BaseController
             ]
         ]);
         if (!$validation) {
-            $validation = \Config\Services::validation();
-            $data = [
-                "title" => "edit barang",
-                "validation" => $validation,
-                "barang" => $barang,
-                "kategori" => $this->db->query($querykategori, $barang->jenisname)->getResult()
-            ];
-
-            return view("barang/editbarang", $data);
+            return redirect()->back()->withInput();
         } else {
             if (empty($barang)) {
                 throw new \CodeIgniter\Exceptions\PageNotFoundException("title " . $barangid . " not found");

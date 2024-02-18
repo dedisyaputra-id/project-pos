@@ -1,0 +1,205 @@
+INFO - 2024-02-11 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:20:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:21:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-11 02:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:22:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:22:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:22:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:23:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:23:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:23:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:23:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:23:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:24:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:25:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:25:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:27:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:27:19 --> ErrorException: Undefined property: stdClass::$password
+in APPPATH\Views\user\edituser.php on line 171.
+ 1 APPPATH\Views\user\edituser.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php', 171, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/edituser', [], true)
+ 5 APPPATH\Controllers\User.php(146): view('user/edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:27:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-11 02:27:49 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;passwd&quot; does not exist
+LINE 1: ...emarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_user.paswd&quot;. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #134, 'SELECT userid,f...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,f...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,f...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(138): CodeIgniter\Database\BaseConnection->query('SELECT userid,f...', '23')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->edit('23')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-11 02:27:49 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;passwd&quot; does not exist
+LINE 1: ...emarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_user.paswd&quot;.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(138): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =?', '23')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-11 02:27:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;passwd&quot; does not exist
+LINE 1: ...emarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_user.paswd&quot;.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =\'23\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =\'23\'')
+ 3 APPPATH\Controllers\User.php(138): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =?', '23')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-11 02:27:49 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;passwd&quot; does not exist
+LINE 1: ...emarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_user.paswd&quot;.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;passwd&quot; does not exist
+LINE 1: ...emarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_user.paswd&quot;.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =\'23\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =\'23\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =\'23\'')
+ 5 APPPATH\Controllers\User.php(138): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap, username as namapengguna,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh,passwd as password, tbm_usergroup.usergroupname, tbm_usergroup.usergroupid  FROM tbm_user JOIN tbm_usergroup ON tbm_user.usergroupid = tbm_usergroup.usergroupid WHERE tbm_user.userid =?', '23')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:29:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:29:29 --> ErrorException: Undefined variable: usergroup
+in APPPATH\Views\user\edituser.php on line 188.
+ 1 APPPATH\Views\user\edituser.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usergroup', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php', 188, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/edituser', [], true)
+ 5 APPPATH\Controllers\User.php(146): view('user/edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:31:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:32:01 --> ErrorException: Trying to get property 'usergroupid' of non-object
+in APPPATH\Views\user\edituser.php on line 189.
+ 1 APPPATH\Views\user\edituser.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'usergroupid\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php', 189, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/edituser', [], true)
+ 5 APPPATH\Controllers\User.php(148): view('user/edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:32:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:32:21 --> ErrorException: Undefined property: stdClass::$status
+in APPPATH\Views\user\edituser.php on line 198.
+ 1 APPPATH\Views\user\edituser.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php', 198, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/edituser', [], true)
+ 5 APPPATH\Controllers\User.php(148): view('user/edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:33:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:34:02 --> ErrorException: Undefined property: stdClass::$address
+in APPPATH\Views\user\edituser.php on line 211.
+ 1 APPPATH\Views\user\edituser.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$address', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php', 211, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/edituser', [], true)
+ 5 APPPATH\Controllers\User.php(148): view('user/edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('23')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:34:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:34:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:35:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:35:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:38:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:38:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:38:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:38:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:38:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:40:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:40:17 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 126.
+ 1 SYSTEMPATH\Encryption\Encryption.php(126): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(252): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\User.php(143): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('BPOS1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:43:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-11 02:43:20 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 126.
+ 1 SYSTEMPATH\Encryption\Encryption.php(126): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(252): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\User.php(143): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->edit('BPOS1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-11 02:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:44:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-11 02:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-11 02:46:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();

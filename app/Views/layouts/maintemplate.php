@@ -59,6 +59,34 @@
     <script src="<?php base_url() ?>/assets/plugins/sweetalert/sweetalert2.all.min.js"></script>
     <script src="<?php base_url() ?>/assets/plugins/sweetalert/sweetalerts.min.js"></script>
     <?php $this->renderSection("ajax") ?>
+    <script>
+        const image = document.querySelector("#photo");
+        const imageLabel = document.querySelector(".custome-file-label");
+        const imgPreview = document.querySelector(".img-preview");
+
+        function imageDel() {
+            const btnDel = document.querySelector(".img-delete");
+            imageLabel.textContent = "foto Profil";
+            imgPreview.src = "<?php base_url() ?>/assets/gambar-profil/default-profile_.png";
+        }
+
+        function imageEdit() {
+            const btnDel = document.querySelector(".img-delete");
+            imageLabel.textContent = "foto Profil";
+            imgPreview.src = "<?php base_url() ?>/assets/gambar-profil/default-profile_.png";
+        }
+
+        function imagePreview() {
+            imageLabel.textContent = image.files[0].name;
+
+            const fileSampul = new FileReader();
+            fileSampul.readAsDataURL(image.files[0]);
+
+            fileSampul.onload = function(e) {
+                imgPreview.src = e.target.result;
+            }
+        }
+    </script>
 </body>
 
 </html>

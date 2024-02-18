@@ -14,109 +14,103 @@
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label> Gambar Barang</label>
-                        <input type="file" name="file_gambar" class="form-control <?= (isset($validation) ? ($validation->getError("file_gambar") ? "is-invalid" : "") : ""); ?>" required>
+                        <input type="file" name="file_gambar" class="form-control <?= (validation_show_error("file_gambar")  ? "is-invalid" : ""); ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("file_gambar") : ""); ?>
+                            <?= validation_show_error("file_gambar"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Nama Barang</label>
-                        <input type="text" name="barangname" autofocus class="form-control <?= (isset($validation) ? ($validation->getError("barangname") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($_POST["barangname"]) ? $_POST["barangname"] : "");  ?>" required>
+                        <input type="text" name="barangname" autofocus class="form-control <?= (validation_show_error("barangname")  ? "is-invalid" : ""); ?>" value="<?= old("barangname");  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("barangname") : ""); ?>
+                            <?= validation_show_error("barangname"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Kode Barang</label>
-                        <input type="text" name="barangcode" class=" form-control <?= (isset($validation) ? ($validation->getError("barangcode") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($_POST["barangcode"]) ? $_POST["barangcode"] : "");  ?>" required>
+                        <input type="text" name="barangcode" class=" form-control <?= (validation_show_error("barangcode")  ? "is-invalid" : ""); ?>" value="<?= old("barangcode");  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("barangcode") : ""); ?>
+                            <?= validation_show_error("barangcode"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Stok Awal</label>
-                        <input type="text" name="stokawal" class="form-control <?= (isset($validation) ? ($validation->getError("stokawal") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($validation) ? ($validation->hasError("stokawal") ? "" : $_POST["stokawal"]) : "");  ?>" required>
+                        <input type="text" name="stokawal" class="form-control <?= (validation_show_error("stokawal")  ? "is-invalid" : ""); ?>" value="<?= old("stokawal");  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= isset($validation) ? $validation->getError("stokawal") : ""; ?>
+                            <?= validation_show_error("stokawal"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Kategori</label>
-                        <select class="form-select <?= (isset($validation) ? ($validation->getError("jenisid") ? "is-invalid" : "") : ""); ?> " name="jenisid" required>
+                        <select class="form-select <?= (validation_show_error("jenisid") ? "is-invalid" : ""); ?> " name="jenisid">
                             <option value="" selected>Pilih Kategori</option>
                             <?php foreach ($kategori as $ktg) : ?>
                                 <option value="<?= $ktg->jenisid; ?>"><?= $ktg->jenisname; ?></option>
                             <?php endforeach ?>
                         </select>
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("jenisid") : ""); ?>
+                            <?= validation_show_error("jenisid"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="mb-3">
                         <label>Deskripsi</label>
-                        <textarea class="form-control" name="remarks" rows="4"><?= (isset($_POST["remarks"]) ? $_POST["remarks"] : ""); ?></textarea>
+                        <textarea class="form-control" name="remarks" rows="4"><?= old("remarks"); ?></textarea>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Harga Beli</label>
-                        <input type="text" name="hargabeli" class="form-control  <?= (isset($validation) ? ($validation->getError("hargabeli") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($_POST["hargabeli"]) ? $_POST["hargabeli"] : "");  ?>" required>
+                        <input type="text" name="hargabeli" class="form-control  <?= (validation_show_error("hargabeli") ? "is-invalid" : ""); ?>" value="<?= old("hargabeli");  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("hargabeli") : ""); ?>
+                            <?= validation_show_error("hargabeli"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Harga App</label>
-                        <input type="text" name="hargapp" class="form-control <?= (isset($validation) ? ($validation->getError("hargapp") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($_POST["hargapp"]) ? $_POST["hargapp"] : "");  ?>" required>
+                        <input type="text" name="hargapp" class="form-control <?= (validation_show_error("hargapp") ? "is-invalid" : "") ?>" value="<?= old("hargapp");  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("hargapp") : ""); ?>
+                            <?= validation_show_error("hargapp"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Harga Jual</label>
-                        <input type="text" name="hargajual" class="form-control <?= (isset($validation) ? ($validation->getError("hargajual") ? "is-invalid" : "") : ""); ?>" value="<?= (isset($_POST["hargajual"]) ? $_POST["hargajual"] : "");  ?>" required>
+                        <input type="text" name="hargajual" class="form-control <?= (validation_show_error("hargajual") ? "is-invalid" : ""); ?>" value="<?= old("hargajual");  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("hargajual") : ""); ?>
+                            <?= validation_show_error("hargajual"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Satuan</label>
-                        <select class="form-select <?= (isset($validation) ? ($validation->getError("satuan") ? "is-invalid" : "") : ""); ?>" name="satuan" required>
+                        <select class="form-select <?= (validation_show_error("satuan") ? "is-invalid" : ""); ?>" name="satuan">
                             <option value="">Pilih Satuan</option>
-                            <?php if (isset($_POST["satuan"])) : ?>
-                                <?php if ($_POST["satuan"] == "Gram" && $_POST["satuan"] !== "") : ?>
-                                    <option value="Gram" selected>Gram</option>
-                                    <option value="KG">KG</option>
-                                    <option value="Ons">Ons</option>
-                                <?php elseif ($_POST["satuan"] == "KG" && $_POST["satuan"] !== "") : ?>
-                                    <option value="Gram">Gram</option>
-                                    <option value="KG" selected>KG</option>
-                                    <option value="Ons">Ons</option>
-                                <?php elseif ($_POST["satuan"] !== "") : ?>
-                                    <option value="Gram">Gram</option>
-                                    <option value="KG">KG</option>
-                                    <option value="Ons" selected>Ons</option>
-                                <?php else : ?>
-                                    <option value="Gram">Gram</option>
-                                    <option value="KG">KG</option>
-                                    <option value="Ons">Ons</option>
-                                <?php endif; ?>
+                            <?php if (old("satuan") == "Gram") : ?>
+                                <option value="Gram" selected>Gram</option>
+                                <option value="KG">KG</option>
+                                <option value="Ons">Ons</option>
+                            <?php elseif (old("satuan") == "KG") : ?>
+                                <option value="Gram">Gram</option>
+                                <option value="KG" selected>KG</option>
+                                <option value="Ons">Ons</option>
+                            <?php elseif (old("satuan") == "Ons") : ?>
+                                <option value="Gram">Gram</option>
+                                <option value="KG">KG</option>
+                                <option value="Ons" selected>Ons</option>
                             <?php else : ?>
                                 <option value="Gram">Gram</option>
                                 <option value="KG">KG</option>
@@ -124,22 +118,20 @@
                             <?php endif; ?>
                         </select>
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= (isset($validation) ? $validation->getError("satuan") : ""); ?>
+                            <?= validation_show_error("barangcode"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
                     <div class="mb-4">
                         <label>Status</label>
-                        <select class="form-select" name="inactive" required>
-                            <?php if (isset($_POST["inactive"])) : ?>
-                                <?php if ($_POST["inactive"] == "f" && $_POST["inactive"] !== "") : ?>
-                                    <option value="f" selected>Tidak Aktif</option>
-                                    <option value="t">Aktif</option>
-                                <?php elseif ($_POST["inactive"] == "t" && $_POST["inactive"] !== "") : ?>
-                                    <option value="f">Tidak Aktif</option>
-                                    <option value="t" selected>Aktif</option>
-                                <?php endif; ?>
+                        <select class="form-select" name="inactive">
+                            <?php if (old("inactive") == "f") : ?>
+                                <option value="f" selected>Tidak Aktif</option>
+                                <option value="t">Aktif</option>
+                            <?php elseif (old("inactive") == "t") : ?>
+                                <option value="f">Tidak Aktif</option>
+                                <option value="t" selected>Aktif</option>
                             <?php else : ?>
                                 <option value="f">Tidak Aktif</option>
                                 <option value="t">Aktif</option>

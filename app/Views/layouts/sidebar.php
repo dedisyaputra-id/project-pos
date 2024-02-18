@@ -70,12 +70,10 @@
                     </div>
                     <a href="customerlist.html"><img src="<?php echo base_url("/assets/img/icons/users.svg") ?>" alt="img" /> <span>Daftar Pembeli</span> </a>
                     <a href="addcustomer.html"><img src="<?php echo base_url("/assets/img/icons/user-plu") ?>s.svg" alt="img" /> <span>Tambah Pembeli</span></a>
-                    <a href="supplierlist.html"><img src="<?php echo base_url("/assets/img/icons/user-") ?>x.svg" alt="img" /> <span>Daftar Suplier</span></a>
-                    <a href="addsupplier.html"><img src="<?php echo base_url("/assets/img/icons/chevrons-dow") ?>n.svg" alt="img" /> <span></span> Tambah Suplier</a>
+                    <a href="/supplier"><img src="<?php echo base_url("/assets/img/icons/user-") ?>x.svg" alt="img" /> <span>Daftar Suplier</span></a>
+                    <a href="/supplier/tambah" class="<?= ($tittle = "Tambah supplier") ? "active" : ""; ?>"><img src="<?php echo base_url("/assets/img/icons/chevrons-dow") ?>n.svg" alt="img" /> <span></span> Tambah Suplier</a>
                     <a href="/pengguna" class="<?= ($title == "Pengguna") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/user-chec") ?>k.svg" alt="img" /> <span></span> Daftar Pengguna</a>
-                    <a href="/tambah/pengguna"><img src="<?php echo base_url("/assets/img/icons/arrow-dow") ?>n.svg" alt="img" /> <span></span> Tambah Pengguna</a>
-                    <a href="storelist.html"><img src="<?php echo base_url("/assets/img/icons/airplay.svg") ?>" alt="img" /> <span></span> Daftar Toko</a>
-                    <a href="addstore.html"><img src="<?php echo base_url("/assets/img/icons/aperture.svg") ?>" alt="img" /> <span></span> Tambah Toko</a>
+                    <a href="/tambah/pengguna" class="<?= ($title == "Tambah pengguna") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/arrow-dow") ?>n.svg" alt="img" /> <span></span> Tambah Pengguna</a>
                 </li>
                 <li class="submenu">
                     <div class="submenu-open">
@@ -88,13 +86,6 @@
                     <a href="purchasereport.html"><img src="<?php echo base_url("/assets/img/icons/book-ope") ?>n.svg" alt="img" /> <span>Laporan Pembelian</span></a>
                     <a href="supplierreport.html"><img src="<?php echo base_url("/assets/img/icons/columns.svg") ?>" alt="img" /> <span>Laporan Suplier</span></a>
                     <a href="customerreport.html"><img src="<?php echo base_url("/assets/img/icons/file.svg") ?>" alt="img" /> <span>Laporan Pembeli</span></a>
-                </li>
-                <li class="submenu">
-                    <div class="submenu-open">
-                        <h6 class="submenu-hdr">Pengguna</h6>
-                    </div>
-                    <a href="newuser.html"><img src="<?php echo base_url("/assets/img/icons/user.svg") ?>" alt="img" /><span>Pengguna Baru</span></a>
-                    <a href="userlists.html"><img src="<?php echo base_url("/assets/img/icons/users.svg") ?>" alt="img" /><span> Daftar Pengguna</span></a>
                 </li>
                 <li class="submenu">
                     <div class="submenu-open">

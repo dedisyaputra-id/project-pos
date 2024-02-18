@@ -4,13 +4,11 @@ namespace App\Controllers;
 
 class Kategori extends BaseController
 {
-    protected $session;
     protected $db;
     public function __construct()
     {
         $this->db = db_connect();
-        $this->session = \Config\Services::session();
-        $this->session->start();
+        helper("form");
     }
     public function index(): string
     {
@@ -45,12 +43,7 @@ class Kategori extends BaseController
                 ]
             ],
         ])) {
-            $validation = \Config\Services::validation();
-            $data = [
-                "title" => "Tambah kategori",
-                "validation" => $validation
-            ];
-            return view("kategori/tambahkategori", $data);
+            return redirect()->back()->withInput();
         } else {
             $kategoriId = $this->db->query("SELECT NEXTVAL('tbm_jenis_barang_nextid')")->getRow();
 
@@ -74,11 +67,12 @@ class Kategori extends BaseController
     }
     public function edit($jeniscode)
     {
+        // dd(validation_errors());
         $query = "SELECT jenisname,jeniscode,inactive,remarks FROM tbm_jenis_barang WHERE jeniscode=?";
         $ktg = $this->db->query($query, $jeniscode)->getRow();
         $data = [
             "title" => "edit kategori",
-            "kategori" => $ktg
+            "kategori" => $ktg,
         ];
         return view("kategori/editkategori", $data);
     }
@@ -101,13 +95,7 @@ class Kategori extends BaseController
                 ]
             ],
         ])) {
-            $validation = \Config\Services::validation();
-            $data = [
-                "title" => "Tambah kategori",
-                "validation" => $validation,
-                "kategori" => $kategori
-            ];
-            return view("kategori/editkategori", $data);
+            return redirect()->back()->withInput();
         } else {
             if (empty($kategori)) {
                 throw new \CodeIgniter\Exceptions\PageNotFoundException("Kode kategori" . $jeniscode . " tidak ditemukan");

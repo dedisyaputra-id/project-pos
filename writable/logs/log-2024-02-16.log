@@ -1,0 +1,1076 @@
+INFO - 2024-02-16 01:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-16 01:26:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-16 01:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 01:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 02:15:23 --> ErrorException: Undefined variable: user
+in APPPATH\Views\kategori\editkategori.php on line 43.
+ 1 APPPATH\Views\kategori\editkategori.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\kategori\\editkategori.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\kategori\\editkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori/editkategori', [], true)
+ 5 APPPATH\Controllers\Kategori.php(77): view('kategori/editkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->edit('K004')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 02:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 02:16:25 --> ErrorException: Undefined variable: user
+in APPPATH\Views\kategori\editkategori.php on line 43.
+ 1 APPPATH\Views\kategori\editkategori.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\kategori\\editkategori.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\kategori\\editkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori/editkategori', [], true)
+ 5 APPPATH\Controllers\Kategori.php(77): view('kategori/editkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->edit('K004')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 02:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 02:16:48 --> ErrorException: Undefined property: stdClass::$status
+in APPPATH\Views\kategori\editkategori.php on line 43.
+ 1 APPPATH\Views\kategori\editkategori.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\kategori\\editkategori.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\kategori\\editkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kategori/editkategori', [], true)
+ 5 APPPATH\Controllers\Kategori.php(77): view('kategori/editkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->edit('K004')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 02:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 03:40:32 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplierid&quot; does not exist
+LINE 1: SELECT supplierid,supplier_name as namasuplier, supplier_cod...
+               ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(94): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', 'SPL01')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 03:40:32 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplierid&quot; does not exist
+LINE 1: SELECT supplierid,supplier_name as namasuplier, supplier_cod...
+               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(94): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =?', 'SPL01')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 03:40:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplierid&quot; does not exist
+LINE 1: SELECT supplierid,supplier_name as namasuplier, supplier_cod...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =\'SPL01\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =\'SPL01\'')
+ 3 APPPATH\Controllers\Supplier.php(94): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =?', 'SPL01')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 03:40:32 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplierid&quot; does not exist
+LINE 1: SELECT supplierid,supplier_name as namasuplier, supplier_cod...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;supplierid&quot; does not exist
+LINE 1: SELECT supplierid,supplier_name as namasuplier, supplier_cod...
+               ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =\'SPL01\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =\'SPL01\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =\'SPL01\'')
+ 5 APPPATH\Controllers\Supplier.php(94): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, opadd as ditambahkanoleh, luadd as waktuditambahkan,luedit as waktuterakhirupdate, inactive as status WHERE supplierid =?', 'SPL01')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 03:41:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "supplier/detail-suplier.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/detail-suplier.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/detail-suplier', [], true)
+ 3 APPPATH\Controllers\Supplier.php(104): view('supplier/detail-suplier', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 03:41:42 --> ErrorException: Undefined variable: supplier
+in APPPATH\Views\supplier\detail-supplier.php on line 23.
+ 1 APPPATH\Views\supplier\detail-supplier.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: supplier', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/detail-supplier', [], true)
+ 5 APPPATH\Controllers\Supplier.php(104): view('supplier/detail-supplier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 03:41:52 --> ErrorException: Undefined property: stdClass::$waktuterakhirdiupdate
+in APPPATH\Views\supplier\detail-supplier.php on line 51.
+ 1 APPPATH\Views\supplier\detail-supplier.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$waktuterakhirdiupdate', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/detail-supplier', [], true)
+ 5 APPPATH\Controllers\Supplier.php(104): view('supplier/detail-supplier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 03:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 03:48:54 --> Error: Call to a member function humanize() on string
+in APPPATH\Views\supplier\detail-supplier.php on line 41.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/detail-supplier', [], true)
+ 4 APPPATH\Controllers\Supplier.php(104): view('supplier/detail-supplier', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 03:50:23 --> Exception: DateTimeZone::__construct(): Unknown or bad timezone (Asia/Indonesia)
+in SYSTEMPATH\I18n\TimeTrait.php on line 90.
+ 1 SYSTEMPATH\I18n\TimeTrait.php(90): DateTimeZone->__construct('Asia/Indonesia')
+ 2 SYSTEMPATH\I18n\TimeTrait.php(132): CodeIgniter\I18n\Time->__construct('2024-02-16 10:34:17.297761', 'Asia/Indonesia', null)
+ 3 APPPATH\Controllers\Supplier.php(96): CodeIgniter\I18n\Time::parse('2024-02-16 10:34:17.297761', 'Asia/Indonesia')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 03:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 10:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 10:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 10:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 10:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 10:56:01 --> Error: Call to a member function toLocalizedString() on string
+in APPPATH\Controllers\Supplier.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 10:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 10:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 11:02:03 --> TypeError: DateTime::__construct() expects parameter 2 to be DateTimeZone, string given
+in APPPATH\Controllers\Supplier.php on line 97.
+ 1 APPPATH\Controllers\Supplier.php(97): DateTime->__construct('2024-02-16 10:34:17.297761', 'Asia/Jakarta')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 11:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 11:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 11:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 11:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 11:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 11:04:15 --> ErrorException: date_parse() expects exactly 1 parameter, 2 given
+in APPPATH\Views\supplier\detail-supplier.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_parse() expects exactly 1 parameter, 2 given', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php', 41, [...])
+ 2 APPPATH\Views\supplier\detail-supplier.php(41): date_parse('2024-02-16 10:34:17.297761', 'Asia/Jakarta')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/detail-supplier', [], true)
+ 6 APPPATH\Controllers\Supplier.php(110): view('supplier/detail-supplier', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 11:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 11:04:34 --> ErrorException: Array to string conversion
+in APPPATH\Views\supplier\detail-supplier.php on line 41.
+ 1 APPPATH\Views\supplier\detail-supplier.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\supplier\\detail-supplier.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/detail-supplier', [], true)
+ 5 APPPATH\Controllers\Supplier.php(110): view('supplier/detail-supplier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->detail('SPL01')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 11:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 13:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 14:40:09 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #139, 'INSERT INTO tbm...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 14:40:09 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 14:40:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 3 APPPATH\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 14:40:09 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 5 APPPATH\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_jenis_barang(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-16 14:40:43 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #139, 'INSERT INTO tbm...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 14:40:43 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 14:40:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 3 APPPATH\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 14:40:43 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;,&quot;
+LINE 1: ...ress,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)')
+ 5 APPPATH\Controllers\Supplier.php(86): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_supplier(supplierid,supplier_name,supplier_code,phone_no,email,address,remarks,opadd,pcadd,luadd,inactive) VALUES (?,?,?,?,?,?,?,?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 14:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 14:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 15:12:08 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', '5')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 15:12:08 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:12:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 3 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:12:08 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 5 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-16 15:13:25 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', '5')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 15:13:25 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:13:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 3 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:13:25 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 5 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-16 15:14:13 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', '5')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 15:14:13 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:14:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 3 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:14:13 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 5 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-16 15:14:37 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', '5')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 15:14:37 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:14:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 3 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:14:37 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 5 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-16 15:14:39 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', '5')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 15:14:39 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:14:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 3 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:14:39 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;supplier_name&quot; does not exist
+LINE 1: SELECT supplier_name as namasupplier, supplier_code as kodes...
+               ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =\'5\'')
+ 5 APPPATH\Controllers\Supplier.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier_name as namasupplier, supplier_code as kodesupplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, inactive WHERE supplierid =?', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:15:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "supplier/edit-suplier.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/edit-suplier.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/edit-suplier', [], true)
+ 3 APPPATH\Controllers\Supplier.php(124): view('supplier/edit-suplier', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:16:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "supplier/edit-suppier.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/edit-suppier.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('supplier/edit-suppier', [], true)
+ 3 APPPATH\Controllers\Supplier.php(124): view('supplier/edit-suppier', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 15:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 15:17:29 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(129): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', '5')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-16 15:17:29 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Supplier.php(129): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:17:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 3 APPPATH\Controllers\Supplier.php(129): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:17:29 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...p,email, address as alamat, remarks as deskripsi, WHERE supp...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =\'5\'')
+ 5 APPPATH\Controllers\Supplier.php(129): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name as namasuplier, supplier_code as kodesuplier, phone_no as nohp,email, address as alamat, remarks as deskripsi, WHERE supplierid =?', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 15:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 15:20:07 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', Array, NULL, 'supplier_code')
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', Array, Array)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(136): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+#11 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#12 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-02-16 15:20:07 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = :suppliercode:
+AND "suppliercode" != :suppliercode.1:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', [...], null, 'supplier_code')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Supplier.php(136): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:20:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = :suppliercode:
+AND "suppliercode" != :suppliercode.1:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', [...], null, 'supplier_code')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Supplier.php(136): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:20:07 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = \'SPL004\'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = :suppliercode:
+AND "suppliercode" != :suppliercode.1:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', [...], null, 'supplier_code')
+ 8 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', [...], [...])
+ 9 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+10 APPPATH\Controllers\Supplier.php(136): CodeIgniter\Controller->validate([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-16 15:22:35 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;. in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT 1\nFROM "...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1\nFROM "...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM "...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', Array, NULL, 'supplier_code')
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', Array, Array)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\Supplier.php(137): CodeIgniter\Controller->validate(Array)
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+#11 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#12 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-02-16 15:22:35 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = :suppliercode:
+AND "suppliercode" != :suppliercode.1:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', [...], null, 'supplier_code')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Supplier.php(137): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:22:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = :suppliercode:
+AND "suppliercode" != :suppliercode.1:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', [...], null, 'supplier_code')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', [...], [...])
+ 7 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Supplier.php(137): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-16 15:22:35 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = 'SPL004'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;suppliercode&quot; does not exist
+LINE 3: WHERE &quot;suppliercode&quot; = \'SPL004\'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;tbm_supplier.supplier_code&quot;.', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = \'SPL004\'
+AND "suppliercode" != \'SPL004\'
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "tbm_supplier"
+WHERE "suppliercode" = :suppliercode:
+AND "suppliercode" != :suppliercode.1:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('SPL004', 'suppliercode', [...], null, 'supplier_code')
+ 8 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('supplier_code', 'supplier_code', 'SPL004', [...], [...])
+ 9 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+10 APPPATH\Controllers\Supplier.php(137): CodeIgniter\Controller->validate([...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Supplier->update('5')
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-16 15:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 15:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

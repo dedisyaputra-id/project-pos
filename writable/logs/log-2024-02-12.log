@@ -1,0 +1,1053 @@
+INFO - 2024-02-12 01:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:07:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:07:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 01:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:07:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 01:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 01:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 01:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 01:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:09:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:09:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:11:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 01:11:04 --> TypeError: file_exists() expects parameter 1 to be a valid path, string given
+in SYSTEMPATH\ThirdParty\Kint\Parser\FsPathPlugin.php on line 62.
+ 1 SYSTEMPATH\ThirdParty\Kint\Parser\FsPathPlugin.php(62): file_exists('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+')
+ 2 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(636): Kint\Parser\FsPathPlugin->parse('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\BlobValue), 2)
+ 3 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(297): Kint\Parser\Parser->applyPlugins('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\BlobValue), 2)
+ 4 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(142): Kint\Parser\Parser->parseString('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\Value))
+ 5 SYSTEMPATH\ThirdParty\Kint\Parser\Base64Plugin.php(88): Kint\Parser\Parser->parse('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\Value))
+ 6 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(636): Kint\Parser\Base64Plugin->parse('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\BlobValue), 2)
+ 7 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(297): Kint\Parser\Parser->applyPlugins('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\BlobValue), 2)
+ 8 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(142): Kint\Parser\Parser->parseString('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\Value))
+ 9 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(569): Kint\Parser\Parser->parse('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\Value))
+10 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(138): Kint\Parser\Parser->parseObject(Object(stdClass), Object(Kint\Zval\Value))
+11 SYSTEMPATH\ThirdParty\Kint\Kint.php(285): Kint\Parser\Parser->parse(Object(stdClass), Object(Kint\Zval\Value))
+12 SYSTEMPATH\ThirdParty\Kint\Kint.php(268): Kint\Kint->dumpVar(Object(stdClass), Object(Kint\Zval\Value))
+13 SYSTEMPATH\ThirdParty\Kint\Kint.php(575): Kint\Kint->dumpAll([...], [...])
+14 SYSTEMPATH\Debug\Toolbar.php(110): Kint\Kint::dump(Object(stdClass))
+15 SYSTEMPATH\Debug\Toolbar.php(370): CodeIgniter\Debug\Toolbar->run(1707700261.974284, 1.9593, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+16 SYSTEMPATH\Filters\DebugToolbar.php(42): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+17 SYSTEMPATH\Filters\Filters.php(211): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+18 SYSTEMPATH\CodeIgniter.php(522): CodeIgniter\Filters\Filters->run('edit/pengguna/BPOS1', 'after')
+19 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 01:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:11:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:11:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 01:11:57 --> TypeError: file_exists() expects parameter 1 to be a valid path, string given
+in SYSTEMPATH\ThirdParty\Kint\Parser\FsPathPlugin.php on line 62.
+ 1 SYSTEMPATH\ThirdParty\Kint\Parser\FsPathPlugin.php(62): file_exists('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+')
+ 2 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(636): Kint\Parser\FsPathPlugin->parse('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\BlobValue), 2)
+ 3 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(297): Kint\Parser\Parser->applyPlugins('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\BlobValue), 2)
+ 4 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(142): Kint\Parser\Parser->parseString('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\Value))
+ 5 SYSTEMPATH\ThirdParty\Kint\Parser\Base64Plugin.php(88): Kint\Parser\Parser->parse('ê1ˆ' . "\0" . '÷¡/ñÄ÷úô
+', Object(Kint\Zval\Value))
+ 6 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(636): Kint\Parser\Base64Plugin->parse('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\BlobValue), 2)
+ 7 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(297): Kint\Parser\Parser->applyPlugins('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\BlobValue), 2)
+ 8 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(142): Kint\Parser\Parser->parseString('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\Value))
+ 9 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(569): Kint\Parser\Parser->parse('6jEWB4gA96Ev8cT3+h70Cg==', Object(Kint\Zval\Value))
+10 SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php(138): Kint\Parser\Parser->parseObject(Object(stdClass), Object(Kint\Zval\Value))
+11 SYSTEMPATH\ThirdParty\Kint\Kint.php(285): Kint\Parser\Parser->parse(Object(stdClass), Object(Kint\Zval\Value))
+12 SYSTEMPATH\ThirdParty\Kint\Kint.php(268): Kint\Kint->dumpVar(Object(stdClass), Object(Kint\Zval\Value))
+13 SYSTEMPATH\ThirdParty\Kint\Kint.php(575): Kint\Kint->dumpAll([...], [...])
+14 SYSTEMPATH\Debug\Toolbar.php(110): Kint\Kint::dump(Object(stdClass))
+15 SYSTEMPATH\Debug\Toolbar.php(370): CodeIgniter\Debug\Toolbar->run(1707700315.743481, 1.6691, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+16 SYSTEMPATH\Filters\DebugToolbar.php(42): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+17 SYSTEMPATH\Filters\Filters.php(211): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+18 SYSTEMPATH\CodeIgniter.php(522): CodeIgniter\Filters\Filters->run('edit/pengguna/BPOS1', 'after')
+19 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 01:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:12:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:14:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:50:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:52:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:53:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:53:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:54:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:55:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:55:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 01:55:58 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;=?&quot;
+LINE 1: UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,g...
+                                  ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #132, 'UPDATE tbm_user...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE tbm_user...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE tbm_user...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE tbm_user...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->update('BPOS4')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 01:55:58 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;=?&quot;
+LINE 1: UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,g...
+                                  ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->update('BPOS4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 01:55:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;=?&quot;
+LINE 1: UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,g...
+                                  ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?')
+ 3 APPPATH\Controllers\User.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->update('BPOS4')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 01:55:58 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;=?&quot;
+LINE 1: UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,g...
+                                  ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;=?&quot;
+LINE 1: UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,g...
+                                  ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?')
+ 5 APPPATH\Controllers\User.php(243): CodeIgniter\Database\BaseConnection->query('UPDATE tbm_user SET userid=?,username=?,paswd=?,fullname=?,gender=?,address=?,remarks=?,opedit=?,pcedit=?,luedit=?,inactive=?, usergroupid=?', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->update('BPOS4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 01:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:56:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:56:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 01:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 01:59:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:01:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:01:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:03:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:03:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:04:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:06:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 02:06:08 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...marks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupn...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #135, 'SELECT userid,f...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,f...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,f...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(20): CodeIgniter\Database\BaseConnection->query('SELECT userid,f...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 02:06:08 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...marks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupn...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(20): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 02:06:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...marks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupn...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ')
+ 3 APPPATH\Controllers\User.php(20): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 02:06:08 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...marks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupn...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...marks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupn...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ')
+ 5 APPPATH\Controllers\User.php(20): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat, tbm_user.remarks as deskripsi, tbm_user.opadd as dibuatoleh, usergroupname  FROM tbm_user ', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 02:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:06:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 02:06:56 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...photo as profil,address as alamat,remarks, opadd, usergroupn...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #134, 'SELECT userid,f...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,f...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,f...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,f...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 02:06:56 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...photo as profil,address as alamat,remarks, opadd, usergroupn...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 02:06:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...photo as profil,address as alamat,remarks, opadd, usergroupn...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 3 APPPATH\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 02:06:56 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...photo as profil,address as alamat,remarks, opadd, usergroupn...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;usergroupname&quot; does not exist
+LINE 1: ...photo as profil,address as alamat,remarks, opadd, usergroupn...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 5 APPPATH\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil,address as alamat,remarks, opadd, usergroupname  FROM tbm_user ', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 02:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:07:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 02:07:09 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;alamat&quot; does not exist
+LINE 1: ...malengkap,gender as jeniskelamin,photo as profil, alamat,rem...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #134, 'SELECT userid,f...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,f...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,f...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,f...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->index()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 02:07:09 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;alamat&quot; does not exist
+LINE 1: ...malengkap,gender as jeniskelamin,photo as profil, alamat,rem...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ', 'f')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 02:07:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;alamat&quot; does not exist
+LINE 1: ...malengkap,gender as jeniskelamin,photo as profil, alamat,rem...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 3 APPPATH\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ', 'f')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 02:07:09 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;alamat&quot; does not exist
+LINE 1: ...malengkap,gender as jeniskelamin,photo as profil, alamat,rem...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;alamat&quot; does not exist
+LINE 1: ...malengkap,gender as jeniskelamin,photo as profil, alamat,rem...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ')
+ 5 APPPATH\Controllers\User.php(21): CodeIgniter\Database\BaseConnection->query('SELECT userid,fullname as namalengkap,gender as jeniskelamin,photo as profil, alamat,remarks, opadd, usergroupname  FROM tbm_user ', 'f')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 02:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:09:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:12:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:13:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:14:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:16:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:16:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:21:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:21:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:22:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:23:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:29:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:32:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:32:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:32:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:32:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:33:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:33:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:33:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:33:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:33:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:34:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:34:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:34:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:34:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:34:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:34:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:38:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:38:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:39:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:39:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:40:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:42:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:42:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 02:42:51 --> ErrorException: Trying to get property 'usergroupid' of non-object
+in APPPATH\Views\user\edituser.php on line 91.
+ 1 APPPATH\Views\user\edituser.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'usergroupid\' of non-object', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php', 91, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\edituser.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/edituser', [], true)
+ 5 APPPATH\Controllers\User.php(228): view('user/edituser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->update('BPOS1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 02:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:44:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:44:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:44:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:45:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:46:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:46:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:47:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:47:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:48:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:48:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:53:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:53:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:53:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:53:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:54:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:55:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:55:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:56:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:56:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:56:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:57:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:57:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 02:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 02:58:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:00:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:01:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:01:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:01:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:01:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:03:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:03:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:03:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:04:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:05:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:05:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:06:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:07:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:09:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:10:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:10:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:10:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:10:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:11:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:12:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:15:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:15:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:17:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:17:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:17:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:18:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:18:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:19:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:19:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:19:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:29:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 03:29:51 --> ErrorException: Undefined property: stdClass::$photo
+in APPPATH\Views\user\user.php on line 77.
+ 1 APPPATH\Views\user\user.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$photo', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\user.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/user', [], true)
+ 5 APPPATH\Controllers\User.php(26): view('user/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 03:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:30:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:36:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:36:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:37:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:41:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:41:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:41:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:42:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:42:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:42:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:43:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:44:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:45:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:45:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 03:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 03:59:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:03:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:04:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:04:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:04:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:05:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:08:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:08:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:12:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:14:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:18:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:18:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:20:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 04:20:24 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type bytea
+LINE 1: ...,pcadd,luadd,inactive, usergroupid) VALUES ('30', E'C:\\xamp...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #131, 'INSERT INTO tbm...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 04:20:24 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  invalid input syntax for type bytea
+LINE 1: ...,pcadd,luadd,inactive, usergroupid) VALUES ('30', E'C:\\xamp...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\User.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 04:20:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  invalid input syntax for type bytea
+LINE 1: ...,pcadd,luadd,inactive, usergroupid) VALUES ('30', E'C:\\xamp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (\'30\', E\'C:\\\\xampp\\\\tmp\\\\phpD065.tmp\',\'$2y$10$Yjv7m8.cEV4dMVhtdlZxD.esZYNRMrdCFZ1mLDKdPDvPmgbk/la9a\',\'$2y$10$nlRUS8dQqTFZIn2pCUAbSuE1sUIbatxEBNu8bR30THkxvKhwLf766\',\'123\',\'perempuan\',\'\',\'\',\'admin\',\'::1\',\'2024-02-12 04:20:24\',\'f\',\'02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (\'30\', E\'C:\\\\xampp\\\\tmp\\\\phpD065.tmp\',\'$2y$10$Yjv7m8.cEV4dMVhtdlZxD.esZYNRMrdCFZ1mLDKdPDvPmgbk/la9a\',\'$2y$10$nlRUS8dQqTFZIn2pCUAbSuE1sUIbatxEBNu8bR30THkxvKhwLf766\',\'123\',\'perempuan\',\'\',\'\',\'admin\',\'::1\',\'2024-02-12 04:20:24\',\'f\',\'02\')')
+ 3 APPPATH\Controllers\User.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-12 04:20:24 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type bytea
+LINE 1: ...,pcadd,luadd,inactive, usergroupid) VALUES ('30', E'C:\\xamp...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  invalid input syntax for type bytea
+LINE 1: ...,pcadd,luadd,inactive, usergroupid) VALUES (\'30\', E\'C:\\\\xamp...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (\'30\', E\'C:\\\\xampp\\\\tmp\\\\phpD065.tmp\',\'$2y$10$Yjv7m8.cEV4dMVhtdlZxD.esZYNRMrdCFZ1mLDKdPDvPmgbk/la9a\',\'$2y$10$nlRUS8dQqTFZIn2pCUAbSuE1sUIbatxEBNu8bR30THkxvKhwLf766\',\'123\',\'perempuan\',\'\',\'\',\'admin\',\'::1\',\'2024-02-12 04:20:24\',\'f\',\'02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (\'30\', E\'C:\\\\xampp\\\\tmp\\\\phpD065.tmp\',\'$2y$10$Yjv7m8.cEV4dMVhtdlZxD.esZYNRMrdCFZ1mLDKdPDvPmgbk/la9a\',\'$2y$10$nlRUS8dQqTFZIn2pCUAbSuE1sUIbatxEBNu8bR30THkxvKhwLf766\',\'123\',\'perempuan\',\'\',\'\',\'admin\',\'::1\',\'2024-02-12 04:20:24\',\'f\',\'02\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (\'30\', E\'C:\\\\xampp\\\\tmp\\\\phpD065.tmp\',\'$2y$10$Yjv7m8.cEV4dMVhtdlZxD.esZYNRMrdCFZ1mLDKdPDvPmgbk/la9a\',\'$2y$10$nlRUS8dQqTFZIn2pCUAbSuE1sUIbatxEBNu8bR30THkxvKhwLf766\',\'123\',\'perempuan\',\'\',\'\',\'admin\',\'::1\',\'2024-02-12 04:20:24\',\'f\',\'02\')')
+ 5 APPPATH\Controllers\User.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_user(userid,photo,username,paswd,fullname,gender,address,remarks,opadd,pcadd,luadd,inactive, usergroupid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 04:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:20:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:22:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:22:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:22:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 04:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 04:23:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:50:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:51:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:51:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:51:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:52:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:54:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:55:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:56:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:56:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 06:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:56:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 06:56:54 --> ErrorException: Undefined property: stdClass::$status
+in APPPATH\Views\user\user.php on line 84.
+ 1 APPPATH\Views\user\user.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\user.php', 84, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/user', [], true)
+ 5 APPPATH\Controllers\User.php(26): view('user/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 06:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:58:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 06:58:01 --> ErrorException: Undefined property: stdClass::$alamat
+in APPPATH\Views\user\user.php on line 84.
+ 1 APPPATH\Views\user\user.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$alamat', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\user.php', 84, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\user\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/user', [], true)
+ 5 APPPATH\Controllers\User.php(26): view('user/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 06:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 06:58:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:04:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:04:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:04:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:04:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:05:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:05:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:05:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:05:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:05:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:05:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:06:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:06:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:06:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:06:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:06:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:06:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:10:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:10:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:10:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:15:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:15:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:19:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:19:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:19:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:19:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:20:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:20:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:20:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:20:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:22:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:22:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:28:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:30:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:30:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:30:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:30:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:30:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:31:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:31:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:31:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:31:25 --> Error: Call to a member function getFileName() on null
+in APPPATH\Controllers\User.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:32:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:32:44 --> Error: Call to a member function getFileName() on null
+in APPPATH\Controllers\User.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:33:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:33:18 --> Error: Call to a member function getName() on null
+in APPPATH\Controllers\User.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:33:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:33:55 --> Error: Call to a member function getFilename() on null
+in APPPATH\Controllers\User.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:34:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:34:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:34:52 --> Error: Call to a member function getName() on null
+in APPPATH\Controllers\User.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:36:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:36:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 07:37:01 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergrou...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 07:37:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergroupid,usergroupname FROM tbm_usergroup WHERE dlt=?', 'f')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:40:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:40:00 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\User.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('assets/gambar-profil/', '45.')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:40:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-02-12 07:40:53 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\User.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('assets/gambar-profil/', '46.')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:42:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:42:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:43:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:44:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:45:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:45:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:46:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 07:46:53 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergrou...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 07:46:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergroupid,usergroupname FROM tbm_usergroup WHERE dlt=?', 'f')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:48:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 07:49:03 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergrou...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 07:49:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergroupid,usergroupname FROM tbm_usergroup WHERE dlt=?', 'f')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:49:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 07:49:42 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergrou...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 07:49:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergroupid,usergroupname FROM tbm_usergroup WHERE dlt=?', 'f')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:50:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-02-12 07:50:58 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432? in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(72): pg_connect('host=10.20.30.1...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(392): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergrou...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\User->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-12 07:50:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.20.30.1&quot; and accepting
+	TCP/IP connections on port 5432?
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\User.php(42): CodeIgniter\Database\BaseConnection->query('SELECT usergroupid,usergroupname FROM tbm_usergroup WHERE dlt=?', 'f')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->save()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-12 07:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:51:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-12 07:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:52:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:52:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:52:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:53:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:53:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:54:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:55:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:56:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:56:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:57:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:58:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:58:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:59:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 07:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 07:59:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 08:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 08:00:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 08:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 08:00:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 08:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 08:01:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 08:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 08:01:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-12 08:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-12 08:01:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();

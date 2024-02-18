@@ -16,6 +16,7 @@
         <?= session()->getFlashdata("success") ?>
     </div>
 <?php endif; ?>
+
 <div class="card">
     <div class="card-body">
         <div class="table-top">
@@ -54,11 +55,11 @@
                                 <span class="checkmarks"></span>
                             </label>
                         </th>
+                        <th>Profil</th>
                         <th>Nama Lengkap</th>
                         <th>Gender</th>
                         <th>Hak akses</th>
-                        <th>Alamat</th>
-                        <th>Deskripsi</th>
+                        <th>Status</th>
                         <th>Dibuat Oleh</th>
                         <th>Aksi</th>
                     </tr>
@@ -74,17 +75,24 @@
                             </td>
                             <td class="productimgname">
                                 <a href="javascript:void(0);" class="product-img">
-                                    <img src="<?= base_url() ?>/assets/gambar-produk/<?= $user->userid  ?>.jpg" alt="">
+                                    <?php if ($user->profil) : ?>
+                                        <img src="<?= base_url() ?>/assets/gambar-profil/<?= $user->userid ?>.jpg" alt="" style="object-fit: cover;">
+                                    <?php else : ?>
+                                        <img src="<?= base_url() ?>/assets/gambar-profil/default-profile_.png" alt="" style="object-fit: cover;">
+                                    <?php endif; ?>
                                 </a>
-                                <a href="javascript:void(0);"><?= $user->namalengkap; ?></a>
                             </td>
+                            <td><?= $user->namalengkap; ?></td>
                             <td><?= $user->jeniskelamin; ?></td>
                             <td><?= $user->usergroupname; ?></td>
-                            <td><?= $user->alamat; ?></td>
-                            <td><?= $user->deskripsi; ?></td>
+                            <?php if ($user->status == "f") : ?>
+                                <td><span class="bg-lightred badges">Tidak aktif</span></td>
+                            <?php else : ?>
+                                <td><span class="bg-lightgreen badges">Aktif</span></td>
+                            <?php endif; ?>
                             <td><?= $user->dibuatoleh; ?></td>
                             <td>
-                                <a class="me-3" href="/kategori/">
+                                <a class="me-3" href="/edit/pengguna/<?= $user->userid; ?>">
                                     <img src="<?php echo base_url() ?>/assets/img/icons/edit.svg" alt="img">
                                 </a>
                                 <form action="/hapus/pengguna/<?= $user->userid; ?>" method="post" class="d-inline">
