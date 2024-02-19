@@ -33,10 +33,11 @@
                 </li>
                 <li class="">
                     <div class="submenu-open">
-                        <h6 class="submenu-hdr"> Pembelian</h6>
+                        <h6 class="submenu-hdr">Pembelian</h6>
                     </div>
                     <a href="/barangmasuk" class="<?= ($title == "Barang masuk") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/shopping-bag.svg") ?>" alt="img" /><span>Daftar Pembelian</span></a>
-                    <a href="/barangmasuk/tambah" class="<?= ($title == "Tambah barang masuk") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/quotation1.svg") ?>" alt="img" /> <span>Tambah Pembelian</span> </a>
+                    <a href="/barangmasuk/tambah" class="<?= ($title == "Tambah barang masuk") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/quotation1.svg") ?>" alt="img" /><span>Tambah Pembelian</span> </a>
+                    <a href="/detailbarangmasuk" class="<?= ($title == "detail barang masuk") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/feather.svg") ?>" alt="img" /><span>Detail Pembelian</span></a>
                 </li>
                 <li class="submenu">
                     <div class="submenu-open">

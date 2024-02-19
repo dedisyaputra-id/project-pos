@@ -3,7 +3,7 @@
 <div class="page-header">
     <div class="page-title">
         <h4>Detail Barang Masuk</h4>
-        <h6>Detail Barang Masuk Secara Penuh</h6>
+        <h6>Detail Barang Masuk Secara Lengkap</h6>
     </div>
 </div>
 <div class="row">
@@ -29,6 +29,14 @@
                             <h6><?= date("d-M-Y, h:s:i a", strtotime($item->waktu)); ?></h6>
                         </li>
                         <li>
+                            <h4>Waktu diubah</h4>
+                            <?php if (!$item->waktudiubah) : ?>
+                                <h6></h6>
+                            <?php else : ?>
+                                <h6><?= date("d-M-Y, h:s:i a", strtotime($item->waktudiubah)); ?></h6>
+                            <?php endif; ?>
+                        </li>
+                        <li>
                             <h4>Jumlah</h4>
                             <h6><?= $item->jumlah; ?></h6>
                         </li>
@@ -43,6 +51,10 @@
                         <li>
                             <h4>Harga App</h4>
                             <h6>Rp. <?= number_format($item->hargapp, 0, ",", "."); ?></h6>
+                        </li>
+                        <li>
+                            <h4>Satuan</h4>
+                            <h6><?= $item->satuan; ?> </h6>
                         </li>
                         <li>
                             <h4>Deskripsi</h4>
