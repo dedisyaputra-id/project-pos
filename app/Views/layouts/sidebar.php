@@ -22,11 +22,19 @@
                     <a href="/tambahkategori" class="<?= ($title == "Tambah kategori") ? "active" : "" ?>"><img src="<?php echo base_url("/assets/img/icons/plus-square.svg") ?>" alt="img" /><span>Tambah Kategori</span></a>
                     <a href="barcode.html"> <img src="<?php echo base_url("/assets/img/icons/align-justify.svg") ?>" alt="img" /><span>Cetak Barcode</span></a>
                 </li>
+                <li class="">
+                    <div class="submenu-open">
+                        <h6 class="submenu-hdr">Menu</h6>
+                    </div>
+                    <a href="saleslist.html"> <img src="<?php echo base_url("/assets/img/icons/menu.svg") ?>" alt="img" /> <span>Daftar Menu</span></a>
+                    <a href="pos.html"> <img src="<?php echo base_url("/assets/img/icons/plus.svg") ?>" alt="img" /> <span>Tambah Menu</span></a>
+                    <a href="/jenismenu"> <img src="<?php echo base_url("/assets/img/icons/file-text.svg") ?>" alt="img" /><span>Daftar Jenis Menu</span></a>
+                    <a href="/jenismenu/tambah"><img src="<?php echo base_url("/assets/img/icons/plus.svg") ?>" alt="img" /><span>Tambah Jenis Menu</span></a>
+                </li>
                 <li class="submenu">
                     <div class="submenu-open">
                         <h6 class="submenu-hdr">Penjualan</h6>
                     </div>
-
                     <a href="saleslist.html"> <img src="<?php echo base_url("/assets/img/icons/shopping-cart.svg") ?>" alt="img" /> <span>Daftar Penjualan</span></a>
                     <a href="pos.html"> <img src="<?php echo base_url("/assets/img/icons/hard-drive.svg") ?>" alt="img" /> <span>POS</span></a>
                     <a href="pos.html"> <img src="<?php echo base_url("/assets/img/icons/plus.svg") ?>" alt="img" /><span>Penjualan Baru</span></a>

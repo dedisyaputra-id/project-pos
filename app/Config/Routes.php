@@ -48,3 +48,9 @@ $routes->get("/detailbarangmasuk/edit/(:alphanum)", "DetailBarangMasuk::edit/$1"
 $routes->put("/detailbarangmasuk/ubah/(:alphanum)", "DetailBarangMasuk::update/$1");
 $routes->get("/detailbarangmasuk/(:alphanum)", "DetailBarangMasuk::detail/$1");
 $routes->delete("/detailbarangmasuk/hapus/(:alphanum)", "DetailBarangMasuk::delete/$1");
+$routes->get("/jenismenu", "JenisMenu::index");
+$routes->get("/jenismenu/tambah", "JenisMenu::create");
+$routes->post("/jenismenu/simpan", "JenisMenu::save");
+$routes->get("/jenismenu/(:alphanum)", "JenisMenu::edit/$1");
+$routes->put("/jenismenu/ubah/(:alphanum)", "JenisMenu::update/$1");
+$routes->delete("/jenismenu/hapus/(:alphanum)", "JenisMenu::delete/$1");
