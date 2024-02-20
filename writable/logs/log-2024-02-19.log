@@ -1,0 +1,749 @@
+INFO - 2024-02-19 08:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-19 08:02:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-02-19 08:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-19 08:30:10 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;barangmasukid&quot; of relation &quot;tbm_barang&quot; does not exist
+LINE 1: INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,ha...
+                               ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #134, 'INSERT INTO tbm...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\BarangMasuk.php(104): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\BarangMasuk->save()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-19 08:30:10 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;barangmasukid&quot; of relation &quot;tbm_barang&quot; does not exist
+LINE 1: INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,ha...
+                               ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\BarangMasuk.php(104): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 08:30:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column &quot;barangmasukid&quot; of relation &quot;tbm_barang&quot; does not exist
+LINE 1: INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,ha...
+                               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (\'4\',\'0\',\'T002\',\'0\',\'0\',\'0\',\'test\',\'\',\'admin\',\'::1\',\'2024-02-19 08:30:09\',NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (\'4\',\'0\',\'T002\',\'0\',\'0\',\'0\',\'test\',\'\',\'admin\',\'::1\',\'2024-02-19 08:30:09\',NULL)')
+ 3 APPPATH\Controllers\BarangMasuk.php(104): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 08:30:10 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column &quot;barangmasukid&quot; of relation &quot;tbm_barang&quot; does not exist
+LINE 1: INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,ha...
+                               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column &quot;barangmasukid&quot; of relation &quot;tbm_barang&quot; does not exist
+LINE 1: INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,ha...
+                               ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (\'4\',\'0\',\'T002\',\'0\',\'0\',\'0\',\'test\',\'\',\'admin\',\'::1\',\'2024-02-19 08:30:09\',NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (\'4\',\'0\',\'T002\',\'0\',\'0\',\'0\',\'test\',\'\',\'admin\',\'::1\',\'2024-02-19 08:30:09\',NULL)')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (\'4\',\'0\',\'T002\',\'0\',\'0\',\'0\',\'test\',\'\',\'admin\',\'::1\',\'2024-02-19 08:30:09\',NULL)')
+ 5 APPPATH\Controllers\BarangMasuk.php(104): CodeIgniter\Database\BaseConnection->query('INSERT INTO tbm_barang(barangmasukid,qty, barangmasukcode,hargabeli,hargajual,hargapp,remarks,satuan,opadd,pcadd,luadd,supplierid) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->save()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 08:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 08:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 08:41:07 --> ParseError: syntax error, unexpected '$querySupplier' (T_VARIABLE)
+in APPPATH\Controllers\BarangMasuk.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Controllers\\BarangMasuk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BarangMasuk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BarangMasuk')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\BarangMasuk')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\BarangMasuk', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 08:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-19 09:06:24 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;tbl_supplier&quot; does not exist
+LINE 1: ...plier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_suppli...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT tblb.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tblb.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblb.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.bar...', 'BPOS2')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-19 09:06:24 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  relation &quot;tbl_supplier&quot; does not exist
+LINE 1: ...plier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_suppli...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =?', 'BPOS2')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:06:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  relation &quot;tbl_supplier&quot; does not exist
+LINE 1: ...plier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_suppli...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 3 APPPATH\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =?', 'BPOS2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:06:24 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  relation &quot;tbl_supplier&quot; does not exist
+LINE 1: ...plier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_suppli...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  relation &quot;tbl_supplier&quot; does not exist
+LINE 1: ...plier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_suppli...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 5 APPPATH\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbl_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =?', 'BPOS2')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-19 09:06:44 --> ErrorException: pg_query(): Query failed: ERROR:  column reference &quot;supplierid&quot; is ambiguous
+LINE 1: ...gabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT tblb.bar...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tblb.bar...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblb.bar...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.bar...', 'BPOS2')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-19 09:06:44 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column reference &quot;supplierid&quot; is ambiguous
+LINE 1: ...gabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =?', 'BPOS2')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:06:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  column reference &quot;supplierid&quot; is ambiguous
+LINE 1: ...gabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 3 APPPATH\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =?', 'BPOS2')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:06:44 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  column reference &quot;supplierid&quot; is ambiguous
+LINE 1: ...gabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  column reference &quot;supplierid&quot; is ambiguous
+LINE 1: ...gabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =\'BPOS2\'')
+ 5 APPPATH\Controllers\BarangMasuk.php(113): CodeIgniter\Database\BaseConnection->query('SELECT tblb.barangmasukid as id, tblb.barangmasukcode, tblb.qty, tblb.hargapp,tblb.hargabeli,tblb.hargajual, tblb.satuan, tblb.remarks, supplierid,supplier_name FROM tbl_barangmasuk as tblb LEFT JOIN tbm_supplier ON tblb.supplierid = tbm_supplier.supplierid WHERE tblb.barangmasukid =?', 'BPOS2')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 09:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-19 09:13:36 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;!=&quot;
+LINE 1: ...er_name FROM tbm_supplier WHERE dlt='f' || supplierid !=NULL
+                                                                 ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #120, 'SELECT supplier...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplier...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplier...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\BarangMasuk.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplier...', Array)
+#5 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-19 09:13:36 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;!=&quot;
+LINE 1: ...er_name FROM tbm_supplier WHERE dlt='f' || supplierid !=NULL
+                                                                 ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\BarangMasuk.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=? || supplierid !=?', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:13:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;!=&quot;
+LINE 1: ...er_name FROM tbm_supplier WHERE dlt='f' || supplierid !=NULL
+                                                                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=\'f\' || supplierid !=NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=\'f\' || supplierid !=NULL')
+ 3 APPPATH\Controllers\BarangMasuk.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=? || supplierid !=?', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:13:36 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;!=&quot;
+LINE 1: ...er_name FROM tbm_supplier WHERE dlt='f' || supplierid !=NULL
+                                                                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  syntax error at or near &quot;!=&quot;
+LINE 1: ...er_name FROM tbm_supplier WHERE dlt=\'f\' || supplierid !=NULL
+                                                                 ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=\'f\' || supplierid !=NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=\'f\' || supplierid !=NULL')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=\'f\' || supplierid !=NULL')
+ 5 APPPATH\Controllers\BarangMasuk.php(115): CodeIgniter\Database\BaseConnection->query('SELECT supplierid,supplier_name FROM tbm_supplier WHERE dlt=? || supplierid !=?', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 09:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 09:22:39 --> ErrorException: Undefined property: stdClass::$barangmasukid
+in APPPATH\Views\barangmasuk\edit-barangmasuk.php on line 11.
+ 1 APPPATH\Views\barangmasuk\edit-barangmasuk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$barangmasukid', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\edit-barangmasuk.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\edit-barangmasuk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barangmasuk/edit-barangmasuk', [], true)
+ 5 APPPATH\Controllers\BarangMasuk.php(121): view('barangmasuk/edit-barangmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:25:25 --> ErrorException: Undefined property: stdClass::$barangmasukid
+in APPPATH\Views\barangmasuk\edit-barangmasuk.php on line 11.
+ 1 APPPATH\Views\barangmasuk\edit-barangmasuk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$barangmasukid', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\edit-barangmasuk.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\edit-barangmasuk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barangmasuk/edit-barangmasuk', [], true)
+ 5 APPPATH\Controllers\BarangMasuk.php(121): view('barangmasuk/edit-barangmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 09:31:34 --> ErrorException: Undefined property: stdClass::$barangmasukid
+in APPPATH\Views\barangmasuk\edit-barangmasuk.php on line 11.
+ 1 APPPATH\Views\barangmasuk\edit-barangmasuk.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$barangmasukid', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\edit-barangmasuk.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\edit-barangmasuk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barangmasuk/edit-barangmasuk', [], true)
+ 5 APPPATH\Controllers\BarangMasuk.php(121): view('barangmasuk/edit-barangmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BarangMasuk->edit('BPOS1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 09:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 10:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 10:53:08 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:54:47 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:03 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:37 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:40 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:41 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:41 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:42 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 10:58:42 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:02:54 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:05:54 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:06:17 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:06:18 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:06:18 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:06:59 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:00 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:00 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:00 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:01 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\DetailBarangMasuk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:40 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:41 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:42 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:07:42 --> Error: Class 'app\Models\DetailBarangMasukModel' not found
+in APPPATH\Controllers\DetailBarangMasuk.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-19 11:09:16 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ...OIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #123, 'SELECT tbm_deta...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_deta...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_deta...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_deta...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-19 11:09:16 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ...OIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =? ORDER BY tbm_detail.barangmasukdetailid DESC', 'f')
+ 2 APPPATH\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:09:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ...OIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 3 APPPATH\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =? ORDER BY tbm_detail.barangmasukdetailid DESC', 'f')
+ 4 APPPATH\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:09:16 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ...OIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ...OIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 5 APPPATH\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbl_barangmasuk.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =? ORDER BY tbm_detail.barangmasukdetailid DESC', 'f')
+ 6 APPPATH\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-19 11:12:27 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ..._barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #123, 'SELECT tbm_deta...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_deta...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_deta...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_deta...', 'f')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-19 11:12:27 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ..._barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =? ORDER BY tbm_detail.barangmasukdetailid DESC', 'f')
+ 2 APPPATH\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:12:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ..._barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 3 APPPATH\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =? ORDER BY tbm_detail.barangmasukdetailid DESC', 'f')
+ 4 APPPATH\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:12:27 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ..._barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;tbm_barangmasuk&quot;
+LINE 1: ..._barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barang...
+                                                             ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'f\' ORDER BY tbm_detail.barangmasukdetailid DESC')
+ 5 APPPATH\Models\DetailBarangMasukModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm_barangmasuk.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =? ORDER BY tbm_detail.barangmasukdetailid DESC', 'f')
+ 6 APPPATH\Controllers\DetailBarangMasuk.php(17): App\Models\DetailBarangMasukModel->get()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 11:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 11:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 11:35:48 --> ArgumentCountError: Too few arguments to function App\Controllers\DetailBarangMasuk::detail(), 0 passed in C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\DetailBarangMasuk.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:36:42 --> ArgumentCountError: Too few arguments to function App\Controllers\DetailBarangMasuk::detail(), 0 passed in C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\DetailBarangMasuk.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:36:54 --> ArgumentCountError: Too few arguments to function App\Controllers\DetailBarangMasuk::detail(), 0 passed in C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\DetailBarangMasuk.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+ERROR - 2024-02-19 11:37:37 --> ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;BPOS4&quot;
+LINE 1: ...barangid = tbm_barang.barangid WHERE tbm_detail.dlt ='BPOS4'
+                                                                ^ in C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php:187
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\Postgre\Connection.php(187): pg_query(Resource id #123, 'SELECT tbm_deta...')
+#2 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_deta...')
+#3 C:\xampp\htdocs\POS_CODEIGNITER\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_deta...')
+#4 C:\xampp\htdocs\POS_CODEIGNITER\app\Models\DetailBarangMasukModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tbm_deta...', 'BPOS4')
+#5 C:\xampp\htdocs\POS_CODEIGNITER\app\Controllers\DetailBarangMasuk.php(26): App\Models\DetailBarangMasukModel->getDetail('BPOS4')
+#6 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail('BPOS4')
+#7 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+#8 C:\xampp\htdocs\POS_CODEIGNITER\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\POS_CODEIGNITER\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\POS_CODEIGNITER\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-19 11:37:37 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;BPOS4&quot;
+LINE 1: ...barangid = tbm_barang.barangid WHERE tbm_detail.dlt ='BPOS4'
+                                                                ^
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\DetailBarangMasukModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =?', 'BPOS4')
+ 2 APPPATH\Controllers\DetailBarangMasuk.php(26): App\Models\DetailBarangMasukModel->getDetail('BPOS4')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail('BPOS4')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:37:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;BPOS4&quot;
+LINE 1: ...barangid = tbm_barang.barangid WHERE tbm_detail.dlt ='BPOS4'
+                                                                ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'BPOS4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'BPOS4\'')
+ 3 APPPATH\Models\DetailBarangMasukModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =?', 'BPOS4')
+ 4 APPPATH\Controllers\DetailBarangMasuk.php(26): App\Models\DetailBarangMasukModel->getDetail('BPOS4')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail('BPOS4')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:37:37 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;BPOS4&quot;
+LINE 1: ...barangid = tbm_barang.barangid WHERE tbm_detail.dlt ='BPOS4'
+                                                                ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  invalid input syntax for type boolean: &quot;BPOS4&quot;
+LINE 1: ...barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'BPOS4\'
+                                                                ^', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\system\\Database\\Postgre\\Connection.php', 187, [...])
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(187): pg_query(resource (pgsql link), 'SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'BPOS4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\Postgre\Connection->execute('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'BPOS4\'')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =\'BPOS4\'')
+ 5 APPPATH\Models\DetailBarangMasukModel.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tbm_detail.barangmasukdetailid as id, tbm_detail.qty as jumlah,tbm_detail.luadd as waktu,tbm_detail.opadd as dibuatoleh,tbm_detail.luedit as waktudiubah,tbm_detail.satuan,tbm_detail.barcode,tbm_detail.hargajual,tbm_detail.hargabeli,tbm_detail.hargapp,tbm_detail.remarks as deskripsi, tbm.barangmasukcode,tbm_barang.barangcode FROM tbl_barangmasuk_detail as tbm_detail LEFT JOIN tbl_barangmasuk as tbm ON tbm_detail.barangmasukid = tbm.barangmasukid LEFT JOIN tbm_barang ON tbm_detail.barangid = tbm_barang.barangid WHERE tbm_detail.dlt =?', 'BPOS4')
+ 6 APPPATH\Controllers\DetailBarangMasuk.php(26): App\Models\DetailBarangMasukModel->getDetail('BPOS4')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail('BPOS4')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+CRITICAL - 2024-02-19 11:38:06 --> ErrorException: Undefined property: stdClass::$namasupplier
+in APPPATH\Views\barangmasuk\detail-barangmasuk.php on line 17.
+ 1 APPPATH\Views\barangmasuk\detail-barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$namasupplier', 'C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\detail-barangmasuk.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\POS_CODEIGNITER\\app\\Views\\barangmasuk\\detail-barangmasuk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('barangmasuk/detail-barangmasuk', [], true)
+ 5 APPPATH\Controllers\DetailBarangMasuk.php(32): view('barangmasuk/detail-barangmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->detail('BPOS4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')
+INFO - 2024-02-19 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-19 15:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-19 15:59:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(839): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\DetailBarangMasukModel.php(90): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\DetailBarangMasuk.php(46): App\Models\DetailBarangMasukModel->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DetailBarangMasuk->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailBarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\POS_CODEIGNITER\\public\\index.php')

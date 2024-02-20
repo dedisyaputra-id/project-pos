@@ -44,4 +44,7 @@ $routes->delete("/barangmasuk/(:alphanum)", "BarangMasuk::delete/$1");
 $routes->get("/detailbarangmasuk", "DetailBarangMasuk::index");
 $routes->get("/detailbarangmasuk/tambah", "DetailBarangMasuk::create");
 $routes->post("/detailbarangmasuk/simpan", "DetailBarangMasuk::save");
+$routes->get("/detailbarangmasuk/edit/(:alphanum)", "DetailBarangMasuk::edit/$1");
+$routes->put("/detailbarangmasuk/ubah/(:alphanum)", "DetailBarangMasuk::update/$1");
 $routes->get("/detailbarangmasuk/(:alphanum)", "DetailBarangMasuk::detail/$1");
+$routes->delete("/detailbarangmasuk/hapus/(:alphanum)", "DetailBarangMasuk::delete/$1");
