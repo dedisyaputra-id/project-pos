@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use JenisMenu_model;
 
 class JenisMenu extends BaseController
 {
@@ -16,7 +15,7 @@ class JenisMenu extends BaseController
   {
     $jenisMenu = $this->jenisMenuModel->get();
     $data = [
-      "title" => "jenis menu",
+      "title" => "Daftar jenis menu",
       "jenismenu" => $jenisMenu
     ];
     return view("jenismenu/jenismenu", $data);

@@ -2,8 +2,6 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Exceptions\PageNotFoundException;
-
 class User extends BaseController
 {
     protected $session;

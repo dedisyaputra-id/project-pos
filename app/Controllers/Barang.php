@@ -78,7 +78,7 @@ class Barang extends BaseController
                 ]
             ],
             "file_gambar" => [
-                "rules" => "uploaded[file_gambar]|ext_in[file_gambar,png,jpg]",
+                "rules" => "uploaded[file_gambar]|ext_in[file_gambar,png,jpg]|max_size[file_gambar,2000]",
                 "errors" => [
                     "uploaded" => "Gambar produk tidak boleh kosong",
                     "max_size" => "Ukuran gambar produk harus kurang dari 2 MB",
@@ -95,9 +95,8 @@ class Barang extends BaseController
             return redirect()->back()->withInput();
         } else {
             $barangId = $this->db->query("SELECT NEXTVAL('tbm_barang_nextid')")->getRow();
-            $currval = $this->db->query("SELECT CURRVAL('tbm_barang_nextid')")->getRow();
             $file = $this->request->getFile("file_gambar");
-            $file->move("assets/gambar-produk", $currval->currval . "." . $file->getExtension());
+            $file->move("assets/gambar-produk", $barangId->nextval . "." . $file->getExtension());
             $file_gambar = $file->getName();
 
             $gambar =  $file_gambar;

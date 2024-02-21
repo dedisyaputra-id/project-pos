@@ -2,35 +2,68 @@
 <?= $this->section("content"); ?>
 <div class="page-header">
     <div class="page-title">
-        <h4>Edit kategori barang</h4>
+        <h4>Tambah menu</h4>
+        <h6>Buat menu</h6>
     </div>
 </div>
-<?= validation_list_errors(); ?>
 <div class="card">
     <div class="card-body">
-        <form action="/kategori/ubah/<?= $kategori->jeniscode; ?>" method="post">
+        <form action="/menu/ubah/<?= $menu->menuid; ?>" method="post" enctype="multipart/form-data">
             <?php csrf_field() ?>
             <input type="hidden" name="_method" value="PUT">
             <div class="row">
-                <div class="col-lg-4 col-sm-4 col-12">
+                <div class="col-lg-12 col-sm-12 col-12">
                     <div class="mb-3">
-                        <label>Nama kategori</label>
-                        <input type="text" name="jenisname" class="form-control <?= (validation_show_error("jenisname") ? "is-invalid" : ""); ?>" value="<?= (old("jenisname") ? old("jenisname") : $kategori->jenisname); ?>">
+                        <label>Foto menu</label>
+                        <input type="file" name="photo" class="form-control <?= (validation_show_error("photo") ? "is-invalid" : ""); ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= validation_show_error("jenisname"); ?>
+                            <?= validation_show_error("photo"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-12">
                     <div class="mb-3">
-                        <label>Kode kategori</label>
-                        <input type="text" name="jeniscode" class="form-control<?= (validation_show_error("jeniscode") ? "is-invalid" : ""); ?>" value="<?= (old("jeniscode") ? old("jeniscode") : $kategori->jeniscode) ?>">
+                        <label>Nama menu</label>
+                        <input type="text" name="menuname" autofocus class="form-control <?= (validation_show_error("menuname") ? "is-invalid" : ""); ?>" value="<?= (old("menuname") ? old("menuname") : $menu->menuname);  ?>">
                         <div id="validationServer04Feedback" class="invalid-feedback">
-                            <?= validation_show_error("jeniscode"); ?>
+                            <?= validation_show_error("menuname"); ?>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-12">
+                    <div class="mb-3">
+                        <label>Kode menu</label>
+                        <input type="text" name="menucode" class="form-control <?= (validation_show_error("menucode") ? "is-invalid" : ""); ?>" value="<?= (old("menucode") ? old("menucode") : $menu->menucode);  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= validation_show_error("menucode"); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class="mb-3">
+                        <label>Jenis menu</label>
+                        <select class="form-select <?= (validation_show_error("jenismenuid") ? "is-invalid" : ""); ?>" name="jenismenuid">
+                            <option value="" selected>Pilih jenis menu</option>
+                            <option value="<?= $menu->jenismenuid; ?>" selected><?= $menu->jenismenuname; ?></option>
+                            <?php foreach ($jenismenu as $ktg) : ?>
+                                <option value="<?= $ktg->jenismenuid; ?>"><?= $ktg->jenismenuname; ?></option>
+                            <?php endforeach ?>
+                        </select>
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= validation_show_error("jenismenuid"); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <div class="mb-3">
+                        <label>Harga</label>
+                        <input type="number" min="0" name="price" class="form-control <?= (validation_show_error("price") ? "is-invalid" : ""); ?>" value="<?= (old("price") ? old("price") : $menu->price);  ?>">
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            <?= validation_show_error("price"); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
                     <div class="mb-3">
                         <label>Status</label>
                         <select class="form-select" name="inactive">
@@ -41,7 +74,7 @@
                                 <option value="f">Tidak Aktif</option>
                                 <option value="t" selected>Aktif</option>
                             <?php else : ?>
-                                <?php if ($user->status == "f") : ?>
+                                <?php if ($menu->inactive == "f") : ?>
                                     <option value="f" selected>Tidak Aktif</option>
                                     <option value="t">Aktif</option>
                                 <?php else : ?>
@@ -55,12 +88,12 @@
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label>Deskripsi</label>
-                        <textarea class="form-control" name="remarks" rows="4"><?= $kategori->remarks ?></textarea>
+                        <textarea class="form-control" name="remarks" rows="4"><?= (old("remarks") ? old("remarks") : $menu->remarks) ?></textarea>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <button class="btn btn-submit me-2" type="submit">Submit</button>
-                    <a href="/kategori" class="btn btn-cancel">Batal</a>
+                    <a href="/menu" class="btn btn-cancel">Batal</a>
                 </div>
             </div>
         </form>

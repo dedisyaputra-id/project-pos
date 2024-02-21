@@ -67,7 +67,6 @@ class Kategori extends BaseController
     }
     public function edit($jeniscode)
     {
-        // dd(validation_errors());
         $query = "SELECT jenisname,jeniscode,inactive,remarks FROM tbm_jenis_barang WHERE jeniscode=?";
         $ktg = $this->db->query($query, $jeniscode)->getRow();
         $data = [
